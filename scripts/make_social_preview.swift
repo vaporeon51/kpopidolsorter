@@ -2,9 +2,13 @@ import AppKit
 import Foundation
 
 let root = URL(fileURLWithPath: CommandLine.arguments[1])
-let sourceURL = root.appendingPathComponent("src/assets/social/share-art-source.png")
 let outputURL = root.appendingPathComponent("og-image.png")
-guard let source = NSImage(contentsOf: sourceURL) else { fatalError("Could not read social artwork") }
+let photoPaths = [
+  ("AESPA", "c4ff70b0f93d673c.jpg"),
+  ("IVE", "2bab0db9fb7f28dd.jpg"),
+  ("TWICE", "78fddd9470f82079.jpg"),
+  ("BLACKPINK", "2c0cbe9584a67981.jpg"),
+]
 let size = NSSize(width: 1200, height: 630)
 guard let rep = NSBitmapImageRep(
   bitmapDataPlanes: nil, pixelsWide: 1200, pixelsHigh: 630,
@@ -14,34 +18,77 @@ guard let rep = NSBitmapImageRep(
 NSGraphicsContext.saveGraphicsState()
 NSGraphicsContext.current = graphics
 graphics.imageInterpolation = .high
-NSColor(calibratedRed: 0.98, green: 0.86, blue: 0.88, alpha: 1).setFill()
-NSBezierPath(rect: NSRect(x: 0, y: 0, width: 1200, height: 630)).fill()
-source.draw(in: NSRect(x: 0, y: 0, width: 1200, height: 630),
-            from: NSRect(x: 0, y: 109, width: 1536, height: 806),
-            operation: .sourceOver, fraction: 1)
-
-let panel = NSBezierPath(roundedRect: NSRect(x: 58, y: 58, width: 490, height: 514), xRadius: 28, yRadius: 28)
-NSColor(calibratedRed: 1, green: 0.965, blue: 0.965, alpha: 1).setFill()
-panel.fill()
-NSColor(calibratedRed: 1, green: 1, blue: 0.99, alpha: 1).setStroke()
-panel.lineWidth = 3
-panel.stroke()
-
-func draw(_ string: String, x: CGFloat, y: CGFloat, font: NSFont, color: NSColor) {
-  let attrs: [NSAttributedString.Key: Any] = [.font: font, .foregroundColor: color]
-  string.draw(at: NSPoint(x: x, y: y), withAttributes: attrs)
-}
+let paper = NSColor(calibratedRed: 1, green: 0.973, blue: 0.957, alpha: 1)
+let blush = NSColor(calibratedRed: 0.98, green: 0.89, blue: 0.89, alpha: 1)
 let berry = NSColor(calibratedRed: 0.55, green: 0.15, blue: 0.31, alpha: 1)
 let pink = NSColor(calibratedRed: 0.78, green: 0.30, blue: 0.48, alpha: 1)
-draw("K-POP · MAKE IT YOURS", x: 102, y: 409, font: NSFont.monospacedSystemFont(ofSize: 14, weight: .medium), color: pink)
-draw("bias sorter", x: 98, y: 321, font: NSFont(name: "Georgia-Bold", size: 61) ?? .boldSystemFont(ofSize: 61), color: berry)
-draw("♡", x: 414, y: 330, font: NSFont(name: "Georgia", size: 47) ?? .systemFont(ofSize: 47), color: pink)
-let rule = NSBezierPath()
-rule.move(to: NSPoint(x: 101, y: 294)); rule.line(to: NSPoint(x: 504, y: 294))
-NSColor(calibratedRed: 0.91, green: 0.75, blue: 0.81, alpha: 1).setStroke()
-rule.lineWidth = 1.5; rule.stroke()
-draw("Your idols, in your order.", x: 103, y: 249, font: NSFont(name: "Georgia", size: 24) ?? .systemFont(ofSize: 24), color: berry)
-draw("PICK A PAIR  ·  FIND YOUR TOP 10", x: 103, y: 204, font: NSFont.monospacedSystemFont(ofSize: 12, weight: .regular), color: pink)
+let muted = NSColor(calibratedRed: 0.55, green: 0.42, blue: 0.47, alpha: 1)
+paper.setFill()
+NSBezierPath(rect: NSRect(origin: .zero, size: size)).fill()
+
+// Soft color blooms keep the layout warm while leaving breathing room.
+for (x, y, diameter, color) in [
+  (-150.0, 430.0, 310.0, blush), (1015.0, 405.0, 330.0, blush),
+  (-120.0, -190.0, 380.0, blush), (980.0, -210.0, 400.0, blush)
+] {
+  color.setFill()
+  NSBezierPath(ovalIn: NSRect(x: x, y: y, width: diameter, height: diameter)).fill()
+}
+
+func drawText(_ value: String, at point: NSPoint, font: NSFont, color: NSColor) {
+  value.draw(at: point, withAttributes: [.font: font, .foregroundColor: color])
+}
+func centerText(_ value: String, y: CGFloat, font: NSFont, color: NSColor) {
+  let attributes: [NSAttributedString.Key: Any] = [.font: font, .foregroundColor: color]
+  let width = (value as NSString).size(withAttributes: attributes).width
+  value.draw(at: NSPoint(x: (1200 - width) / 2, y: y), withAttributes: attributes)
+}
+func rounded(_ rect: NSRect, radius: CGFloat) -> NSBezierPath {
+  NSBezierPath(roundedRect: rect, xRadius: radius, yRadius: radius)
+}
+
+// A quiet central title block frames the four real group photos.
+let titlePanel = NSRect(x: 257, y: 130, width: 686, height: 370)
+paper.setFill(); rounded(titlePanel, radius: 32).fill()
+NSColor(calibratedRed: 0.95, green: 0.84, blue: 0.87, alpha: 1).setStroke()
+let panelOutline = rounded(titlePanel, radius: 32); panelOutline.lineWidth = 2; panelOutline.stroke()
+centerText("K-POP  ·  YOUR RANKING", y: 414, font: .monospacedSystemFont(ofSize: 14, weight: .medium), color: pink)
+centerText("bias sorter  ♡", y: 304, font: NSFont(name: "Georgia-Bold", size: 76) ?? .boldSystemFont(ofSize: 76), color: berry)
+centerText("Pick your favorites. Make your own ranking.", y: 250, font: NSFont(name: "Georgia", size: 22) ?? .systemFont(ofSize: 22), color: muted)
+let pill = NSRect(x: 427, y: 169, width: 346, height: 40)
+pink.setFill(); rounded(pill, radius: 20).fill()
+centerText("CHOOSE  ·  COMPARE  ·  RANK", y: 183, font: .monospacedSystemFont(ofSize: 12, weight: .medium), color: .white)
+
+func drawPhotoCard(name: String, file: String, x: CGFloat, y: CGFloat, angle: CGFloat) {
+  let cardSize = NSSize(width: 146, height: 174)
+  let cardRect = NSRect(origin: .zero, size: cardSize)
+  guard let image = NSImage(contentsOf: root.appendingPathComponent("src/assets/idols/" + file)) else { fatalError("Missing photo: \(file)") }
+  graphics.saveGraphicsState()
+  let transform = NSAffineTransform()
+  transform.translateX(by: x + cardSize.width / 2, yBy: y + cardSize.height / 2)
+  transform.rotate(byDegrees: angle)
+  transform.translateX(by: -cardSize.width / 2, yBy: -cardSize.height / 2)
+  transform.concat()
+  NSColor(calibratedWhite: 0.4, alpha: 0.10).setFill()
+  rounded(NSRect(x: 3, y: -4, width: cardSize.width, height: cardSize.height), radius: 15).fill()
+  NSColor.white.setFill(); rounded(cardRect, radius: 14).fill()
+  let photoRect = NSRect(x: 7, y: 38, width: 132, height: 129)
+  graphics.saveGraphicsState()
+  rounded(photoRect, radius: 9).addClip()
+  let sourceSize = image.size
+  let factor = max(photoRect.width / sourceSize.width, photoRect.height / sourceSize.height)
+  let cropWidth = photoRect.width / factor, cropHeight = photoRect.height / factor
+  let crop = NSRect(x: (sourceSize.width - cropWidth) / 2, y: (sourceSize.height - cropHeight) / 2, width: cropWidth, height: cropHeight)
+  image.draw(in: photoRect, from: crop, operation: .copy, fraction: 1)
+  graphics.restoreGraphicsState()
+  drawText(name, at: NSPoint(x: 0, y: 12), font: .systemFont(ofSize: 11, weight: .bold), color: berry)
+  graphics.restoreGraphicsState()
+}
+
+drawPhotoCard(name: photoPaths[0].0, file: photoPaths[0].1, x: 62, y: 383, angle: -7)
+drawPhotoCard(name: photoPaths[1].0, file: photoPaths[1].1, x: 992, y: 380, angle: 6)
+drawPhotoCard(name: photoPaths[2].0, file: photoPaths[2].1, x: 75, y: 71, angle: 6)
+drawPhotoCard(name: photoPaths[3].0, file: photoPaths[3].1, x: 980, y: 72, angle: -6)
 NSGraphicsContext.restoreGraphicsState()
 guard let png = rep.representation(using: .png, properties: [:]) else { fatalError("Could not encode PNG") }
 try png.write(to: outputURL)
