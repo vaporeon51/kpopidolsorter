@@ -1026,5 +1026,10 @@ const photoCache = {
   "zxEWZnZ.jpeg": "src/assets/idols/c0e3665a3fc81c91.jpg",
   "zzBu01U.jpeg": "src/assets/idols/d2ae6b6ded9403b6.jpg",
   "zwkfLlN.jpeg": "src/assets/idols/1ec8f664fb5a54a1.jpg",
-  "zlGXjIC.jpeg": "src/assets/idols/6ca25384371fcf9a.jpg"
+  "zlGXjIC.jpeg": "src/assets/idols/6ca25384371fcf9a.jpg",
+  "https://kpop.fandom.com/wiki/File:BLACKPINK_Shut_Down_group_promotional_photo.png": "src/assets/idols/ade83f06edda49e5.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/a/a5/Le_Sserafim_at_2026_Golden_Disc_awards.png": "src/assets/idols/a76e0b5e09b6b33e.jpg",
+  "https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/canvas/2024/07/23/b68ac245-11fa-4cb9-8e62-8b89c285bbc1_6bb9524f.jpg": "src/assets/idols/6d72ef3811bf6d6b.jpg",
+  "https://www.billboard.com/wp-content/uploads/2024/06/01-ILLIT-Rookie-Spotlight-group-billboard-1548.jpg": "src/assets/idols/e7b66317cff928ca.jpg",
+  "https://www.billboard.com/wp-content/uploads/2026/08/Red-Velvet-sm-entertainment-billboard-1800.jpg": "src/assets/idols/4ac9f6e6723a6ddd.jpg"
 };

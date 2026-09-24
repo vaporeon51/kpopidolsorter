@@ -7587,7 +7587,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Blackpink",
-        img: "ZU9aXUz.jpeg",
+        img: "https://kpop.fandom.com/wiki/File:BLACKPINK_Shut_Down_group_promotional_photo.png",
         opts: {
             group_label: ["Blackpink"],
         }
@@ -7916,7 +7916,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "ILLIT",
-        img: "Syy0Nhs.jpeg",
+        img: "https://www.billboard.com/wp-content/uploads/2024/06/01-ILLIT-Rookie-Spotlight-group-billboard-1548.jpg",
         opts: {
             group_label: ["ILLIT"],
         }
@@ -8042,7 +8042,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "LE SSERAFIM",
-        img: "n1XRNjU.jpeg",
+        img: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Le_Sserafim_at_2026_Golden_Disc_awards.png",
         opts: {
             group_label: ["LE SSERAFIM"],
         }
@@ -8147,7 +8147,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "NewJeans",
-        img: "uY7y0Ka.jpeg",
+        img: "https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/canvas/2024/07/23/b68ac245-11fa-4cb9-8e62-8b89c285bbc1_6bb9524f.jpg",
         opts: {
             group_label: ["NewJeans"]
         }
@@ -8224,7 +8224,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Red Velvet",
-        img: "nQzIwaO.jpeg",
+        img: "https://www.billboard.com/wp-content/uploads/2026/08/Red-Velvet-sm-entertainment-billboard-1800.jpg",
         opts: {
             group_label: ["Red Velvet"],
         }
