@@ -6,8 +6,8 @@ let outputURL = root.appendingPathComponent("og-image.png")
 let photoPaths = [
   ("AESPA", "c4ff70b0f93d673c.jpg"),
   ("IVE", "2bab0db9fb7f28dd.jpg"),
-  ("TWICE", "78fddd9470f82079.jpg"),
-  ("BLACKPINK", "2c0cbe9584a67981.jpg"),
+  ("tripleS", "4fe7e14d750a5b3f.jpg"),
+  ("LE SSERAFIM", "153b29973ea4225f.jpg"),
 ]
 let size = NSSize(width: 1200, height: 630)
 guard let rep = NSBitmapImageRep(
@@ -53,7 +53,13 @@ paper.setFill(); rounded(titlePanel, radius: 32).fill()
 NSColor(calibratedRed: 0.95, green: 0.84, blue: 0.87, alpha: 1).setStroke()
 let panelOutline = rounded(titlePanel, radius: 32); panelOutline.lineWidth = 2; panelOutline.stroke()
 centerText("K-POP  ·  YOUR RANKING", y: 414, font: .monospacedSystemFont(ofSize: 14, weight: .medium), color: pink)
-centerText("bias sorter  ♡", y: 304, font: NSFont(name: "Georgia-Bold", size: 76) ?? .boldSystemFont(ofSize: 76), color: berry)
+let titleFont = NSFont(name: "Georgia-Bold", size: 76) ?? .boldSystemFont(ofSize: 76)
+let heartFont = NSFont.systemFont(ofSize: 30, weight: .regular)
+let titleWidth = ("bias sorter" as NSString).size(withAttributes: [.font: titleFont]).width
+let heartWidth = ("♡" as NSString).size(withAttributes: [.font: heartFont]).width
+let titleX = (1200 - titleWidth - 2 + heartWidth) / 2
+ drawText("bias sorter", at: NSPoint(x: titleX, y: 304), font: titleFont, color: berry)
+drawText("♡", at: NSPoint(x: titleX + titleWidth - 2, y: 315), font: heartFont, color: pink)
 centerText("Pick your favorites. Make your own ranking.", y: 250, font: NSFont(name: "Georgia", size: 22) ?? .systemFont(ofSize: 22), color: muted)
 let pill = NSRect(x: 427, y: 169, width: 346, height: 40)
 pink.setFill(); rounded(pill, radius: 20).fill()
@@ -81,7 +87,9 @@ func drawPhotoCard(name: String, file: String, x: CGFloat, y: CGFloat, angle: CG
   let crop = NSRect(x: (sourceSize.width - cropWidth) / 2, y: (sourceSize.height - cropHeight) / 2, width: cropWidth, height: cropHeight)
   image.draw(in: photoRect, from: crop, operation: .copy, fraction: 1)
   graphics.restoreGraphicsState()
-  drawText(name, at: NSPoint(x: 0, y: 12), font: .systemFont(ofSize: 11, weight: .bold), color: berry)
+  let captionFont = NSFont.systemFont(ofSize: 11, weight: .bold)
+  let captionWidth = (name as NSString).size(withAttributes: [.font: captionFont]).width
+  drawText(name, at: NSPoint(x: (cardSize.width - captionWidth) / 2, y: 12), font: captionFont, color: berry)
   graphics.restoreGraphicsState()
 }
 
