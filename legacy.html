@@ -1,0 +1,89 @@
+<html>
+
+<head>
+  <link rel="shortcut icon" href="src/assets/yinyang.ico" type="image/x-icon">
+  <link rel="icon" href="src/assets/Nana.jpg" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="k7iBam-Qii9qkJBp2aJdCN8oiDxJas_uzPkKGuJsktg" />
+  <meta name="og:site_name" content="K-pop group/idol ranking">
+  <meta name="og:description" content="This page helps you rank your favorite girl groups and idols">
+
+  <title>K-pop Bias Sorter</title>
+
+  <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="src/css/legacy.css">
+
+  <script src="src/js/data.js"></script>
+  <script src="src/js/data/2025-11-01.js"></script>
+
+  <script src="src/js/html2canvas.min.js"></script>
+  <script src="src/js/lz-string.min.js"></script>
+  <script src="src/js/seedrandom.min.js"></script>
+  <script src="src/js/main.js"></script>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="progress">
+        <span class="progressbattle"></span>
+        <div class="progressbar">
+            <div class="progressfill"><span class="progresstext"></span></div>
+        </div>
+    </div>
+
+    <div class="sorter">
+      <div class="sorter-item left">
+        <div class="left sort text"><p></p></div>
+        <img src="src/assets/2331-3665558-E0ysQK7VUAUCBsM.jpg" class="left sort image">
+      </div>
+      
+        <div class="starting start button"><p>Start!</p></div>
+        <div class="starting load button">Load <span></span></div>
+
+        <div class="loading button"><div></div><span>Loading...</span></div>
+
+        <div class="sorting tie button">Tie</div>
+        <div class="sorting undo button">Undo</div>
+        <div class="sorting save button">Save Progress</div>
+
+        <div class="finished save button">Generate Result URL</div>
+        <div class="finished getimg button">Generate Image</div>
+        <div class="finished list button">Generate Text List</div>
+      <div class="sorter-item right">
+        <div class="right sort text"><p></p></div>
+        <img src="src/assets/2331-5539952-GOMRCq-aoAA2CzQ.jpg" class="right sort image">
+      </div>
+    </div>
+    <div class="info">
+      <a href="?IwdgTGIBwJwAyWANjAHxAVjAZgCzZilQTGDjLkonODNssrtMftZudrqc9tJ7YqdyCBjVYUW-fiMajhE5qTAiuHOiTkLRyrl1kc+s2d33D5vcsrEUdKmmcET6DZ+t0OWtslZk-vLpxV1Yx1gtkYvV3pQ9xcEKKVwoTEqSyMdDOBlAyzjG2cXCGzNVwyMjz5HIPZ4+TNLRVtbEogJBlamDlSmvINii0zRVTs-NKFW7LDa4bZE5jiFSeqsouTc6jSRAwCqcTTJ6m8rXgtLFe5XYyoygMMd4-Yvaplc3OFM8YmCgvmWCJTzsk-o4spxQoo3McwslKn84Q1YdM7GN6qD4vMYaDArd4lUzuslD5KjwikNSWIIS8sTIRro+BtrG9CfYunV8jZys1qMVDB0RnzbkdHikOkI9NlyRoSD8-GC5GT+KsKbiIj8BgowYdrqCiWjQqk-vTpUbEqcCUppiSdv4LEDUqVWuiIhjdq8FjxPPs3vYabjEr5tKgyEHLpd4dbNJJ7II2QC2nsY2sfcFI+Z3WEgA">Finished sorter example</a> | <a class="clearsave">Clear Save Data</a>
+      <p>This page is to help you sort out who your biases are amongst different Kpop groups. Just pick some groups and click to start!</p>
+      <p>WARNING - Depending on how many groups you pick, you may get up to 1000+ rounds! Screenshot your results when finished and or grab the save link, otherwise you may lose your results.</p>
+      
+      <p>Keyboard controls during sorting: H (pick left) - J (undo) - K (tie) - L (pick right) - S (save progress).</p>
+      <p>Before sorting: S/Enter (start sorting) - L (load progress).</p>
+      <p>1/2/3 always correspond to the first/second/third buttons.</p><hr>
+    </div>  
+    <div class="options"><input id="cbgroup-group" type="checkbox" checked></div>
+    <div class="image selector">Display Images on Result: </div>
+    <div class="time taken"></div>
+    <div class="results"></div>
+</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

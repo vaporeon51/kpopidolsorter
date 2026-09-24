@@ -1,89 +1,183 @@
-<html>
-
-<head>
-  <link rel="shortcut icon" href="src/assets/yinyang.ico" type="image/x-icon">
-  <link rel="icon" href="src/assets/Nana.jpg" type="image/x-icon">
-  <meta charset="utf-8">
-  <meta name="google-site-verification" content="k7iBam-Qii9qkJBp2aJdCN8oiDxJas_uzPkKGuJsktg" />
-  <meta name="og:site_name" content="K-pop group/idol ranking">
-  <meta name="og:description" content="This page helps you rank your favorite girl groups and idols">
-
-  <title>K-pop Bias Sorter</title>
-
-  <link rel="stylesheet" type="text/css" href="src/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
-
-  <script src="src/js/data.js"></script>
-  <script src="src/js/data/2025-11-01.js"></script>
-
-  <script src="src/js/html2canvas.min.js"></script>
-  <script src="src/js/lz-string.min.js"></script>
-  <script src="src/js/seedrandom.min.js"></script>
-  <script src="src/js/main.js"></script>
-</head>
-
-<body>
-<div class="container">
-
-    <div class="progress">
-        <span class="progressbattle"></span>
-        <div class="progressbar">
-            <div class="progressfill"><span class="progresstext"></span></div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Choose idols and groups to create your K-pop ranking."
+    >
+    <title>bias sorter ♡ · K-pop sorter</title>
+    <link rel="icon" href="src/assets/Nana.jpg">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <script defer src="src/js/data.js"></script>
+    <script defer src="src/js/data/2025-11-01.js"></script>
+    <script defer src="src/js/lz-string.min.js"></script>
+    <script defer src="src/js/engine.js"></script>
+    <script defer src="src/js/photo-cache.js"></script>
+    <script defer src="src/js/result-image.js"></script>
+    <script defer src="src/js/app.js"></script>
+  </head>
+  <body>
+    <header class="masthead">
+      <a href="./" class="brand">bias sorter<span>♡</span></a><button
+        id="help"
+        class="text-button"
+      >
+        how it works ↗
+      </button>
+    </header>
+    <main>
+      <nav class="steps" aria-label="Sorting progress">
+        <span id="step-setup" aria-current="step">01 <b>Select</b></span><i
+        >──</i><span id="step-sort">02 <b>Sort</b></span><i>──</i><span
+          id="step-results"
+        >03 <b>Results</b></span>
+      </nav>
+      <section id="setup">
+        <div id="resume-banner" class="resume" hidden>
+          <span>You have a saved session.</span><button
+            id="resume"
+          >
+            Resume →
+          </button>
         </div>
-    </div>
-
-    <div class="sorter">
-      <div class="sorter-item left">
-        <div class="left sort text"><p></p></div>
-        <img src="src/assets/2331-3665558-E0ysQK7VUAUCBsM.jpg" class="left sort image">
-      </div>
-      
-        <div class="starting start button"><p>Start!</p></div>
-        <div class="starting load button">Load <span></span></div>
-
-        <div class="loading button"><div></div><span>Loading...</span></div>
-
-        <div class="sorting tie button">Tie</div>
-        <div class="sorting undo button">Undo</div>
-        <div class="sorting save button">Save Progress</div>
-
-        <div class="finished save button">Generate Result URL</div>
-        <div class="finished getimg button">Generate Image</div>
-        <div class="finished list button">Generate Text List</div>
-      <div class="sorter-item right">
-        <div class="right sort text"><p></p></div>
-        <img src="src/assets/2331-5539952-GOMRCq-aoAA2CzQ.jpg" class="right sort image">
-      </div>
-    </div>
-    <div class="info">
-      <a href="?IwdgTGIBwJwAyWANjAHxAVjAZgCzZilQTGDjLkonODNssrtMftZudrqc9tJ7YqdyCBjVYUW-fiMajhE5qTAiuHOiTkLRyrl1kc+s2d33D5vcsrEUdKmmcET6DZ+t0OWtslZk-vLpxV1Yx1gtkYvV3pQ9xcEKKVwoTEqSyMdDOBlAyzjG2cXCGzNVwyMjz5HIPZ4+TNLRVtbEogJBlamDlSmvINii0zRVTs-NKFW7LDa4bZE5jiFSeqsouTc6jSRAwCqcTTJ6m8rXgtLFe5XYyoygMMd4-Yvaplc3OFM8YmCgvmWCJTzsk-o4spxQoo3McwslKn84Q1YdM7GN6qD4vMYaDArd4lUzuslD5KjwikNSWIIS8sTIRro+BtrG9CfYunV8jZys1qMVDB0RnzbkdHikOkI9NlyRoSD8-GC5GT+KsKbiIj8BgowYdrqCiWjQqk-vTpUbEqcCUppiSdv4LEDUqVWuiIhjdq8FjxPPs3vYabjEr5tKgyEHLpd4dbNJJ7II2QC2nsY2sfcFI+Z3WEgA">Finished sorter example</a> | <a class="clearsave">Clear Save Data</a>
-      <p>This page is to help you sort out who your biases are amongst different Kpop groups. Just pick some groups and click to start!</p>
-      <p>WARNING - Depending on how many groups you pick, you may get up to 1000+ rounds! Screenshot your results when finished and or grab the save link, otherwise you may lose your results.</p>
-      
-      <p>Keyboard controls during sorting: H (pick left) - J (undo) - K (tie) - L (pick right) - S (save progress).</p>
-      <p>Before sorting: S/Enter (start sorting) - L (load progress).</p>
-      <p>1/2/3 always correspond to the first/second/third buttons.</p><hr>
-    </div>  
-    <div class="options"><input id="cbgroup-group" type="checkbox" checked></div>
-    <div class="image selector">Display Images on Result: </div>
-    <div class="time taken"></div>
-    <div class="results"></div>
-</div>
-</body>
-
+        <div class="workspace">
+          <section class="library" aria-labelledby="library-title">
+            <div class="section-heading">
+              <h2 id="library-title">Select your lineup</h2>
+              <div class="mode-toggle">
+                <button data-mode="idols" aria-pressed="true">Idols</button>
+                <button data-mode="groups" aria-pressed="false">Groups</button>
+              </div>
+            </div>
+            <label class="search"><span aria-hidden="true">⌕</span><input
+                id="search"
+                type="search"
+                placeholder="Search groups or idols"
+                aria-label="Search groups and idols"
+              ><kbd>/</kbd></label>
+            <div class="filters" aria-label="Filter groups">
+              <button data-gen="all" aria-pressed="true">
+                All generations
+              </button>
+              <button data-gen="gen2" aria-pressed="false">2nd gen</button>
+              <button data-gen="gen3" aria-pressed="false">3rd gen</button>
+              <button data-gen="gen4" aria-pressed="false">4th gen</button>
+              <button data-gen="gen5" aria-pressed="false">5th gen</button>
+              <button data-gen="selected" aria-pressed="false">
+                Selected
+              </button>
+            </div>
+            <div class="list-meta">
+              <span id="group-count"></span><button
+                id="select-visible"
+                class="text-button"
+              >
+                Select shown
+              </button>
+            </div>
+            <div id="groups" class="group-grid"></div>
+            <p id="empty" class="empty" hidden>
+              No matches. Try another name or generation.
+            </p>
+          </section>
+          <aside class="lineup">
+            <div class="aside-heading">
+              <span class="eyebrow">SELECTED</span>
+            </div>
+            <h2>
+              <span id="selection-count">0</span> <span id="selection-unit"
+              >idols</span>
+            </h2>
+            <div id="selected-groups" class="selected-groups"></div>
+            <button id="clear" class="text-button">Clear lineup</button>
+            <div class="estimate">
+              <span>Estimated matchups <b id="estimate">—</b></span><span
+              >Estimated time <b id="duration">—</b></span>
+            </div>
+            <button id="start" class="primary" disabled>
+              Start sorting <span>→</span>
+            </button>
+            <p class="fine" id="start-hint">Choose at least 2 idols to start</p>
+          </aside>
+        </div>
+      </section>
+      <section id="sorting" hidden tabindex="-1">
+        <div class="intro">
+          <span class="eyebrow" id="battle-label"></span><h1>
+            Choose your favorite
+          </h1>
+        </div>
+        <div class="progress-meta">
+          <span id="progress-label"></span><span>Autosaved</span>
+        </div>
+        <progress id="progress" max="100" value="0"></progress>
+        <div class="matchup">
+          <button id="pick-left" class="idol-card"></button><span class="versus"
+          >or</span><button id="pick-right" class="idol-card"></button>
+        </div>
+        <div class="battle-actions">
+          <button id="undo">↶ Undo</button>
+          <button id="tie">Tie</button>
+          <button id="pause">Save & exit</button>
+        </div>
+        <p class="fine">← / → to choose · ↑ to tie · ↓ to undo</p>
+      </section>
+      <section id="results" hidden tabindex="-1">
+        <div class="intro">
+          <h1>
+            Your ranking
+          </h1>
+          <p id="result-meta"></p>
+        </div>
+        <div class="result-actions">
+          <button id="share">Copy result link ↗</button>
+          <button id="download">Save image ↓</button>
+          <button id="text-export">Download text ↓</button>
+          <button id="undo-final">↶ Undo last choice</button>
+          <button id="new-lineup">Edit lineup</button><label
+            class="result-image-label"
+          >Photos <select
+              id="result-images"
+              aria-label="Number of result photos"
+            >
+              <option value="0">None</option>
+              <option value="10" selected>Top 10</option>
+              <option value="50">Top 50</option>
+              <option value="10000">All</option>
+            </select></label>
+        </div>
+        <div id="ranking" class="ranking"></div>
+      </section>
+    </main>
+    <footer>
+      <span>K-pop bias sorter</span><a href="legacy.html">Classic sorter ↗</a>
+    </footer>
+    <dialog id="help-dialog">
+      <button id="close-help" class="close" aria-label="Close help">
+        ×
+      </button>
+      <h2>
+        How it works
+      </h2>
+      <p>
+        Choose groups, then expand them to include only the idols you want.
+        Switch to Groups to rank whole groups instead.
+      </p>
+      <p>
+        Pick your favorite in each pair, or tie them. We merge your choices into
+        a complete ranking without asking every possible pair.
+      </p>
+      <p>
+        Your session saves on this device after every choice. Undo works all the
+        way back. Shared result links include your ranking.
+      </p>
+      <p class="fine">
+        The catalog uses the existing community dataset. Some older photos may
+        be unavailable.
+      </p>
+    </dialog>
+    <div id="toast" role="status" hidden></div>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
