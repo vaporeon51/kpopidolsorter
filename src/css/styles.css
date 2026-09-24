@@ -46,8 +46,13 @@ button {
   padding: 11px 16px;
   transition: background 0.16s, transform 0.16s;
 }
-button:hover {
-  background: var(--light);
+@media (hover: hover) and (pointer: fine) {
+  button:hover {
+    background: var(--light);
+  }
+}
+button:not(:disabled):active {
+  transform: scale(0.97);
 }
 button:disabled {
   opacity: 0.5;
@@ -60,6 +65,13 @@ input:focus-visible,
 select:focus-visible {
   outline: 3px solid var(--pink);
   outline-offset: 4px;
+}
+/* View sections get programmatic focus on navigation for screen readers.
+   They are not interactive, so never draw the browser's default focus box. */
+#setup:focus,
+#sorting:focus,
+#results:focus {
+  outline: none;
 }
 a {
   color: var(--pink);
@@ -102,7 +114,11 @@ a {
 }
 .text-button:hover {
   background: none;
-  text-decoration: underline;
+}
+@media (hover: hover) and (pointer: fine) {
+  .text-button:hover {
+    text-decoration: underline;
+  }
 }
 main {
   max-width: 1184px;
@@ -328,8 +344,10 @@ h2 {
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s, transform 0.1s;
 }
-.group-check input:hover {
-  border-color: var(--pink);
+@media (hover: hover) and (pointer: fine) {
+  .group-check input:hover {
+    border-color: var(--pink);
+  }
 }
 .group-check input:checked {
   background: var(--pink);
@@ -427,8 +445,10 @@ details[open] summary::after {
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s, transform 0.1s;
 }
-.members input:hover {
-  border-color: var(--pink);
+@media (hover: hover) and (pointer: fine) {
+  .members input:hover {
+    border-color: var(--pink);
+  }
 }
 .members input:checked {
   background: var(--pink);
@@ -513,9 +533,11 @@ details[open] summary::after {
   font-weight: bold;
   box-shadow: 0 6px 18px #b84d7938;
 }
-.primary:hover {
-  background: linear-gradient(135deg, #bd547f, #a5406b 60%, #97365e);
-  box-shadow: 0 8px 22px #b84d7945;
+@media (hover: hover) and (pointer: fine) {
+  .primary:hover {
+    background: linear-gradient(135deg, #bd547f, #a5406b 60%, #97365e);
+    box-shadow: 0 8px 22px #b84d7945;
+  }
 }
 .primary:active {
   transform: scale(0.98);
@@ -605,10 +627,12 @@ progress::-moz-progress-bar {
   isolation: isolate;
   transition: transform 0.16s, border-color 0.16s, box-shadow 0.16s;
 }
-.idol-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--pink);
-  box-shadow: 0 12px 28px #b84d7922;
+@media (hover: hover) and (pointer: fine) {
+  .idol-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--pink);
+    box-shadow: 0 12px 28px #b84d7922;
+  }
 }
 .idol-card:active {
   transform: translateY(-1px) scale(0.99);
