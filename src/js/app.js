@@ -118,22 +118,49 @@
           g.members.some((m) => m.name.toLowerCase().includes(query))))
     );
   }
-  function renderGroups() {
-    const opened = new Set(
-      [...document.querySelectorAll("details[open]")].map((d) =>
-        d.dataset.group
-      ),
+  // Tracks which group cards the user has expanded. Unlike reading
+  // `details[open]` from the DOM on every render (which forced a full
+  // rebuild to preserve state), this survives fast in-place updates and
+  // lets us auto-open a group the moment it gets selected.
+  const expanded = new Set();
+  function summaryText(count, total) {
+    return `${count ? `${count} / ` : ""}${total} member${
+      total === 1 ? "" : "s"
+    }${count ? " selected" : ""}`;
+  }
+  function allVisibleSelected(visible) {
+    const list = visible ?? visibleGroups();
+    if (!list.length) return false;
+    return list.every((g) =>
+      idsFor(g).every((id) => selected.has(id))
     );
+  }
+  function updateSelectVisibleLabel() {
+    const button = $("select-visible");
+    if (!button) return;
+    const visible = visibleGroups();
+    if (!visible.length) {
+      button.textContent = "Select shown";
+      button.setAttribute?.("aria-pressed", "false");
+      return;
+    }
+    const allSelected = allVisibleSelected(visible);
+    button.textContent = allSelected ? "Unselect shown" : "Select shown";
+    button.setAttribute?.("aria-pressed", String(allSelected));
+  }
+  function renderGroups() {
     const visible = visibleGroups();
     $("group-count").textContent = `${visible.length} groups & soloists`;
     $("empty").hidden = !!visible.length;
     $("select-visible").disabled = !visible.length;
+    updateSelectVisibleLabel();
     $("groups").innerHTML = visible.map((g) => {
       const index = groups.indexOf(g),
         ids = idsFor(g),
         count = ids.filter((id) => selected.has(id)).length;
       const query = $("search").value.trim().toLowerCase();
       const matchedMember = query && !g.name.toLowerCase().includes(query);
+      const open = expanded.has(index) || matchedMember;
       return `<article data-card="${index}" class="group-card ${
         count ? "has-selection" : ""
       }"><div class="group-cover">${
@@ -149,10 +176,8 @@
       }</span></div>${
         mode === "idols"
           ? `<details data-group="${index}" ${
-            opened.has(String(index)) || matchedMember ? "open" : ""
-          }><summary>${count ? `${count} / ` : ""}${ids.length} member${
-            ids.length === 1 ? "" : "s"
-          }${count ? " selected" : ""}</summary><div class="members">${
+            open ? "open" : ""
+          }><summary>${summaryText(count, ids.length)}</summary><div class="members">${
             g.members.map((m) =>
               `<label><input type="checkbox" data-member="${m.id}" ${
                 selected.has(m.id) ? "checked" : ""
@@ -168,6 +193,89 @@
       input.indeterminate = count > 0 && count < ids.length;
     });
   }
+  // Fast path for selection toggles: patch the existing cards in place
+  // instead of rebuilding `innerHTML` (which re-created every <img>,
+  // dropped focus, and caused the visible jitter). Falls back to a full
+  // render when the visible list itself depends on selection
+  // (`Selected` filter) or when the DOM helper is unavailable (tests).
+  function syncSelectionUI(changed) {
+    if (generation === "selected") {
+      renderGroups();
+      return;
+    }
+    // `changed` is the group index (or indices, or "all") whose
+    // selection just changed. Only those cards get their <details>
+    // opened/closed, so manually opened empty groups aren't collapsed
+    // by unrelated selections elsewhere.
+    const changedSet = changed === "all"
+      ? "all"
+      : new Set(
+        Array.isArray(changed)
+          ? changed
+          : changed === null || changed === undefined
+          ? []
+          : [changed],
+      );
+    let patched = false;
+    try {
+      const cards = document.querySelectorAll("[data-card]");
+      if (!cards || !cards.length) return;
+      cards.forEach((card) => {
+        const index = Number(card.dataset?.card ?? card.getAttribute?.("data-card"));
+        if (!Number.isFinite(index)) return;
+        const g = groups[index];
+        if (!g) return;
+        const ids = idsFor(g),
+          count = ids.filter((id) => selected.has(id)).length;
+        card.classList?.toggle?.("has-selection", count > 0);
+        const check = card.querySelector?.("[data-group-check]");
+        if (check) {
+          const shouldCheck = ids.length > 0 && count === ids.length;
+          if (check.checked !== shouldCheck) check.checked = shouldCheck;
+          check.indeterminate = count > 0 && count < ids.length;
+        }
+        const summary = card.querySelector?.("summary");
+        if (summary && mode === "idols") {
+          const next = summaryText(count, ids.length);
+          if (summary.textContent !== next) summary.textContent = next;
+        }
+        const fine = card.querySelector?.(".group-content .fine");
+        if (fine && mode !== "idols") {
+          const next = count ? "Selected" : "Not selected";
+          if (fine.textContent !== next) fine.textContent = next;
+        }
+        card.querySelectorAll?.("[data-member]")?.forEach?.((memberInput) => {
+          const id = Number(
+            memberInput.dataset?.member ?? memberInput.getAttribute?.("data-member"),
+          );
+          const shouldCheck = selected.has(id);
+          if (memberInput.checked !== shouldCheck) {
+            memberInput.checked = shouldCheck;
+          }
+        });
+        // Open/close members to mirror the `expanded` set, but only for
+        // groups whose selection just changed. Selecting reveals members;
+        // unselecting hides them again.
+        if (
+          mode === "idols" &&
+          (changedSet === "all" || changedSet.has(index))
+        ) {
+          const details = card.querySelector?.("details");
+          if (details) {
+            const shouldOpen = expanded.has(index);
+            if (details.open !== shouldOpen) details.open = shouldOpen;
+          }
+        }
+        patched = true;
+      });
+    } catch {
+      patched = false;
+    }
+    // If nothing could be patched in place (e.g. test DOM stubs),
+    // the sidebar + toggle label below still stay correct.
+    void patched;
+    updateSelectVisibleLabel();
+  }
   function updateSelection() {
     const n = selected.size, bound = BiasSorter.bound(n);
     $("selection-count").textContent = n;
@@ -180,8 +288,10 @@
       }">${escape(g.name)} ×</button>`
     ).join("");
     $("estimate").textContent = n > 1 ? `up to ${bound}` : "—";
+    // ~5s per matchup: looking at two photos and deciding takes longer
+    // than 3s once images load and ties/undos are factored in.
     $("duration").textContent = n > 1
-      ? `~${Math.max(1, Math.ceil(bound * 3 / 60))} min`
+      ? `~${Math.max(1, Math.ceil(bound * 5 / 60))} min`
       : "—";
     $("start").disabled = n < 2;
     $("clear").hidden = !n;
@@ -194,6 +304,33 @@
     renderGroups();
     updateSelection();
   }
+  // Selection-only change: avoid rebuilding the grid so images, focus,
+  // and scroll position stay put. Only the `Selected` filter changes
+  // which cards are visible, so it still needs a full render.
+  function handleSelectionChange(changed) {
+    if (generation === "selected") {
+      renderGroups();
+    } else {
+      syncSelectionUI(changed);
+    }
+    updateSelection();
+    // Keep the toggle label correct even when the DOM stub can't patch.
+    updateSelectVisibleLabel();
+  }
+  // Keep `expanded` in sync when the user opens/closes a dropdown
+  // directly. `toggle` doesn't bubble, so listen in capture phase.
+  try {
+    $("groups").addEventListener("toggle", (event) => {
+      const details = event.target?.closest?.("details[data-group]");
+      if (!details) return;
+      const index = Number(details.dataset.group);
+      if (!Number.isFinite(index)) return;
+      if (details.open) expanded.add(index);
+      else expanded.delete(index);
+    }, true);
+  } catch {
+    // Test DOM stub only supports (type, fn); expanded still works.
+  }
   $("groups").addEventListener("click", (event) => {
     // Native controls handle their own clicks, without toggling the whole group.
     if (event.target.closest("details, input, label, button, a")) return;
@@ -202,31 +339,70 @@
   });
   $("groups").addEventListener("change", (event) => {
     const input = event.target;
+    let changedIndex = null;
     if (input.dataset.groupCheck !== undefined) {
-      idsFor(groups[Number(input.dataset.groupCheck)]).forEach((id) =>
-        input.checked ? selected.add(id) : selected.delete(id)
-      );
+      changedIndex = Number(input.dataset.groupCheck);
+      const g = groups[changedIndex];
+      if (g) {
+        idsFor(g).forEach((id) =>
+          input.checked ? selected.add(id) : selected.delete(id)
+        );
+        // Show idols when a group is enabled so filtering by individual
+        // idols doesn't cost an extra click; hide them again when the
+        // group is unselected.
+        if (mode === "idols") {
+          if (input.checked) expanded.add(changedIndex);
+          else expanded.delete(changedIndex);
+        }
+      }
     } else if (input.dataset.member) {
-      input.checked
-        ? selected.add(Number(input.dataset.member))
-        : selected.delete(Number(input.dataset.member));
+      const id = Number(input.dataset.member);
+      input.checked ? selected.add(id) : selected.delete(id);
+      // Keep the group open while it still has selections so a later
+      // full render (search / filter change) preserves it; collapse it
+      // once its last member is unselected.
+      const owner = groups.find((g) => g.members.some((m) => m.id === id));
+      if (owner) {
+        changedIndex = groups.indexOf(owner);
+        const remaining = idsFor(owner).filter((mid) =>
+          selected.has(mid)
+        ).length;
+        if (remaining > 0) expanded.add(changedIndex);
+        else expanded.delete(changedIndex);
+      }
     }
-    const focusSelector = input.dataset.member
-      ? `[data-member="${input.dataset.member}"]`
-      : `[data-group-check="${input.dataset.groupCheck}"]`;
-    refresh();
-    document.querySelector(focusSelector)?.focus({ preventScroll: true });
+    // No focus restore needed: the DOM node is patched in place, so
+    // focus and scroll never jump in the first place.
+    handleSelectionChange(changedIndex);
   });
   $("selected-groups").addEventListener("click", (event) => {
     const button = event.target.closest("[data-remove]");
     if (button) {
-      idsFor(groups[Number(button.dataset.remove)]).forEach((id) =>
-        selected.delete(id)
-      );
-      refresh();
+      const index = Number(button.dataset.remove);
+      idsFor(groups[index]).forEach((id) => selected.delete(id));
+      expanded.delete(index);
+      handleSelectionChange(index);
     }
   });
-  $("search").addEventListener("input", renderGroups);
+  // Leading-edge debounce: first keystroke renders immediately (keeps
+  // tests + perceived speed snappy), follow-ups within 120ms coalesce
+  // into one trailing render to avoid rebuilding a 100+ card grid
+  // on every keypress.
+  let searchTimer = null, searchQueued = false;
+  $("search").addEventListener("input", () => {
+    if (searchTimer) {
+      searchQueued = true;
+      return;
+    }
+    renderGroups();
+    searchTimer = setTimeout(() => {
+      searchTimer = null;
+      if (searchQueued) {
+        searchQueued = false;
+        renderGroups();
+      }
+    }, 120);
+  });
   document.querySelectorAll("[data-gen]").forEach((button) =>
     button.onclick = () => {
       generation = button.dataset.gen;
@@ -251,12 +427,30 @@
     }
   );
   $("select-visible").onclick = () => {
-    visibleGroups().flatMap(idsFor).forEach((id) => selected.add(id));
-    refresh();
+    const visible = visibleGroups();
+    if (!visible.length) return;
+    const ids = visible.flatMap(idsFor);
+    // True toggle: if everything shown is already selected, unselect
+    // it (fixes "doesn't unselect when clicked again"). Because the
+    // lineup autosaves, the result persists across reload until
+    // toggled again or cleared — that's intentional, not stuck.
+    if (ids.every((id) => selected.has(id))) {
+      ids.forEach((id) => selected.delete(id));
+      // Collapse the groups that were just unselected.
+      visible.forEach((g) => expanded.delete(groups.indexOf(g)));
+      handleSelectionChange(visible.map((g) => groups.indexOf(g)));
+    } else {
+      ids.forEach((id) => selected.add(id));
+      // Don't auto-expand every card on bulk select: opening 100+
+      // dropdowns at once would push the page down (the reported
+      // downside). Single-group selects still auto-expand above.
+      handleSelectionChange(null);
+    }
   };
   $("clear").onclick = () => {
     selected.clear();
-    refresh();
+    expanded.clear();
+    handleSelectionChange("all");
   };
   function setView(next) {
     view = next;

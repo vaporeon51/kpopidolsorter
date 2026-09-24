@@ -12,6 +12,9 @@
   background: var(--page);
   font-synthesis: none;
 }
+html {
+  scrollbar-gutter: stable;
+}
 * {
   box-sizing: border-box;
 }
@@ -23,6 +26,9 @@ button, input, select {
 }
 button, a, input, select {
   -webkit-tap-highlight-color: transparent;
+}
+button, input, label, summary {
+  touch-action: manipulation;
 }
 button {
   cursor: pointer;
@@ -250,10 +256,13 @@ h2 {
   background: white;
   overflow: hidden;
   position: relative;
-  transition: border-color 0.15s;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 250px;
 }
 .group-card.has-selection {
   border-color: #dfa8bf;
+  box-shadow: 0 1px 8px #b84d7918;
 }
 .group-cover {
   height: 126px;
@@ -267,10 +276,18 @@ h2 {
   object-fit: cover;
   object-position: center 30%;
   display: block;
-  transition: transform 0.25s;
+  transition: transform 0.25s ease-out;
+  will-change: transform;
 }
-.group-card:hover .group-cover img {
-  transform: scale(1.04);
+@media (hover: hover) and (pointer: fine) {
+  .group-card:hover .group-cover img {
+    transform: scale(1.04);
+  }
+}
+@media (hover: none) {
+  .group-card:hover .group-cover img {
+    transform: none;
+  }
 }
 .group-cover::after {
   content: "";
@@ -326,6 +343,8 @@ h2 {
   padding: 9px 0 0;
   display: flex;
   justify-content: space-between;
+  user-select: none;
+  -webkit-user-select: none;
 }
 .group-content summary::-webkit-details-marker {
   display: none;
@@ -350,6 +369,23 @@ details[open] summary::after {
   align-items: center;
   font-size: 13px;
   line-height: 1.4;
+  cursor: pointer;
+  padding: 2px 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  details[open] > .members {
+    animation: members-in 0.18s ease-out;
+  }
+}
+@keyframes members-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 .members input {
   accent-color: var(--pink);
