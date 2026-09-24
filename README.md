@@ -48,3 +48,8 @@ to a top-10 portrait grid with remaining ranks in compact columns. PNG exports u
 a fixed-width canvas layout so mobile and desktop downloads match. Run
 `deno run --allow-read tests/result-image.test.cjs` to check export completeness
 and canvas size limits.
+
+The root `og-image.png` is the 1200×630 Discord/Open Graph share thumbnail.
+Its source artwork lives at `src/assets/social/share-art-source.png`; regenerate
+the PNG after changing the artwork or overlay by running
+`swift scripts/make_social_preview.swift .`.
