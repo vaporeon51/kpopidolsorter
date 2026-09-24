@@ -4,10 +4,10 @@ import Foundation
 let root = URL(fileURLWithPath: CommandLine.arguments[1])
 let outputURL = root.appendingPathComponent("og-image.png")
 let photoPaths = [
-  ("AESPA", "c4ff70b0f93d673c.jpg"),
+  ("aespa", "0aa5560b78cc12cc.jpg"),
   ("IVE", "2bab0db9fb7f28dd.jpg"),
-  ("tripleS", "4fe7e14d750a5b3f.jpg"),
-  ("LE SSERAFIM", "153b29973ea4225f.jpg"),
+  ("BLACKPINK", "ade83f06edda49e5.jpg"),
+  ("NewJeans", "6d72ef3811bf6d6b.jpg"),
 ]
 let size = NSSize(width: 1200, height: 630)
 guard let rep = NSBitmapImageRep(

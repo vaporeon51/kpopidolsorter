@@ -7,7 +7,7 @@
   --light: #fbe8f0;
   --line: #ecdde4;
   --rose: #e99aba;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Hiragino Maru Gothic ProN", "Hiragino Sans", "Segoe UI", Arial, sans-serif;
   color: var(--ink);
   background: var(--page);
   font-synthesis: none;
@@ -20,6 +20,11 @@ html {
 }
 body {
   margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fffafb 0%, #fff6f9 55%, #fdf0f5 100%);
+}
+::selection {
+  background: #f6c9da;
 }
 button, input, select {
   font: inherit;
@@ -81,13 +86,8 @@ a {
   color: var(--rose);
   margin-left: 4px;
 }
-.eyebrow,
 .steps,
-.fine,
-footer,
-.list-meta,
-.aside-heading,
-.progress-meta {
+.search kbd {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 .masthead > button {
@@ -218,6 +218,10 @@ h2 {
   padding: 2px 6px;
   border-radius: 4px;
 }
+.search:focus-within {
+  border-color: var(--rose);
+  box-shadow: 0 0 0 3px #e99aba30;
+}
 .filters {
   display: flex;
   gap: 6px;
@@ -256,9 +260,12 @@ h2 {
   background: white;
   overflow: hidden;
   position: relative;
-  transition: border-color 0.15s, box-shadow 0.15s;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.12s;
   content-visibility: auto;
   contain-intrinsic-size: auto 250px;
+}
+.group-card:active {
+  transform: scale(0.985);
 }
 .group-card.has-selection {
   border-color: #dfa8bf;
@@ -310,11 +317,30 @@ h2 {
   box-shadow: 0 2px 7px #49343e20;
 }
 .group-check input {
-  width: 17px;
-  height: 17px;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
   margin: 0;
-  accent-color: var(--pink);
+  border-radius: 50%;
+  border: 2px solid #dfb3c6;
+  background: #fff;
   cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+}
+.group-check input:hover {
+  border-color: var(--pink);
+}
+.group-check input:checked {
+  background: var(--pink);
+  border-color: var(--pink);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2.2 6.4 5 9l4.8-5.6' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-size: 12px 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.group-check input:active {
+  transform: scale(0.88);
 }
 .group-content {
   padding: 13px;
@@ -330,8 +356,9 @@ h2 {
   line-height: 1.35;
 }
 .generation {
-  font-family: monospace;
   font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
   color: var(--muted);
   white-space: nowrap;
 }
@@ -388,10 +415,35 @@ details[open] summary::after {
   }
 }
 .members input {
-  accent-color: var(--pink);
-  width: 16px;
-  height: 16px;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
   flex: none;
+  margin: 0;
+  border-radius: 7px;
+  border: 2px solid #dfb3c6;
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+}
+.members input:hover {
+  border-color: var(--pink);
+}
+.members input:checked {
+  background: var(--pink);
+  border-color: var(--pink);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2.2 6.4 5 9l4.8-5.6' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-size: 11px 11px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.members input:active {
+  transform: scale(0.88);
+}
+.group-check input:focus-visible,
+.members input:focus-visible {
+  outline-offset: 2px;
 }
 .lineup {
   position: sticky;
@@ -401,6 +453,7 @@ details[open] summary::after {
   border-radius: 20px;
   padding: 23px;
   margin-top: 0;
+  box-shadow: 0 10px 34px #b84d7914;
 }
 .aside-heading {
   display: flex;
@@ -449,7 +502,7 @@ details[open] summary::after {
   color: var(--ink);
 }
 .primary {
-  background: var(--pink);
+  background: linear-gradient(135deg, #c65d88, var(--pink) 60%, #a5406b);
   color: white;
   border: 0;
   width: 100%;
@@ -458,9 +511,14 @@ details[open] summary::after {
   justify-content: space-between;
   border-radius: 12px;
   font-weight: bold;
+  box-shadow: 0 6px 18px #b84d7938;
 }
 .primary:hover {
-  background: #a5406b;
+  background: linear-gradient(135deg, #bd547f, #a5406b 60%, #97365e);
+  box-shadow: 0 8px 22px #b84d7945;
+}
+.primary:active {
+  transform: scale(0.98);
 }
 .fine {
   text-align: center;
@@ -543,10 +601,17 @@ progress::-moz-progress-bar {
   padding: 9px 9px 20px;
   background: white;
   overflow: hidden;
+  position: relative;
+  isolation: isolate;
+  transition: transform 0.16s, border-color 0.16s, box-shadow 0.16s;
 }
 .idol-card:hover {
   transform: translateY(-3px);
   border-color: var(--pink);
+  box-shadow: 0 12px 28px #b84d7922;
+}
+.idol-card:active {
+  transform: translateY(-1px) scale(0.99);
 }
 .idol-card img {
   width: 100%;
@@ -555,6 +620,27 @@ progress::-moz-progress-bar {
   object-position: center 20%;
   border-radius: 12px;
   background: var(--light);
+}
+/* Wide group photos: full image over a soft blurred fill, no cropped members. */
+.card-backdrop {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  right: 9px;
+  aspect-ratio: 4/5;
+  z-index: -1;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center 30%;
+  filter: blur(28px) saturate(1.6);
+  transform: scale(1.05);
+  opacity: 0.55;
+  pointer-events: none;
+}
+.group-duel img {
+  object-fit: contain;
+  object-position: center;
+  background-color: #ffffff66;
 }
 .idol-card strong {
   font: 26px Georgia, serif;
@@ -613,7 +699,7 @@ progress::-moz-progress-bar {
 }
 .ranking-heading > span {
   color: var(--muted);
-  font: 12px ui-monospace, monospace;
+  font-size: 12px;
 }
 .rank-highlights {
   display: grid;
@@ -735,6 +821,21 @@ dialog::backdrop {
 }
 dialog h2 {
   margin: 20px 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  dialog[open] {
+    animation: dialog-pop 0.18s ease-out;
+  }
+}
+@keyframes dialog-pop {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 dialog p {
   font-size: 15px;
@@ -921,6 +1022,11 @@ dialog p {
   }
   .idol-card {
     padding: 6px 6px 17px;
+  }
+  .card-backdrop {
+    top: 6px;
+    left: 6px;
+    right: 6px;
   }
   .idol-card strong {
     font-size: 21px;

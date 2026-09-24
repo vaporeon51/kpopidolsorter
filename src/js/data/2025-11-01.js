@@ -22,66 +22,66 @@ dataSet[dataSetVersion].options = [
      { name: "9Muses", key: "9Muses", gen: ["gen2"], tooltip: "Debuted 2010-08-12 under Star Empire Entertainment with 'No Playboy.' Known for model-like visuals, catchy synth-pop, and polished choreography." },
      { name: "ablume", key: "ablume", gen: ["gen5"], tooltip: "Debuted 2024-11-15 under Biscuit Entertainment with 'Venus.' New-era girl group with polished pop and fresh visuals." },
      { name: "ADYA", key: "ADYA", gen: ["gen4", "gen5"], tooltip: "Debuted 2023-05-09 under Starting House Entertainment with the single album 'ADYA.' Youthful act blending trendy dance-pop with bright concepts." },
-     { name: "Aespa", key: "Aespa", gen: ["gen4"], tooltip: "Debuted 2020-11-17 under SM Entertainment with 'Black Mamba.' Known for futuristic cyber concepts, virtual avatars, and strong global traction." },
+     { name: "aespa", key: "aespa", gen: ["gen4"], tooltip: "Debuted 2020-11-17 under SM Entertainment with 'Black Mamba.' Known for futuristic cyber concepts, virtual avatars, and strong global traction." },
      { name: "After School", key: "After School", gen: ["gen2"], tooltip: "Debuted 2009-01-15 under Pledis Entertainment with 'AH.' Performance-driven group famed for powerful stages and subunits like Orange Caramel." },
-     { name: "Alice", key: "Alice", gen: ["gen3"], tooltip: "Debuted 2017-06-01 as ELRIS with 'We, First.' Rebranded as ALICE in 2022 under IOK Company. Recognized for vocal-driven pop sound." },
+     { name: "ALICE", key: "ALICE", gen: ["gen3"], tooltip: "Debuted 2017-06-01 as ELRIS with 'We, First.' Rebranded as ALICE in 2022 under IOK Company. Recognized for vocal-driven pop sound." },
      { name: "ALLDAY PROJECT", key: "ALLDAY PROJECT", gen: ["gen5"], tooltip: "ALLDAY PROJECT is a five-member co-ed group under The Black Label. They made their debut on June 23, 2025 with the single album 'Famous'." },
      { name: "AOA", key: "AOA", gen: ["gen3"], tooltip: "Debuted 2012-07-30 under FNC Entertainment with 'Elvis.' Unique for combining band and dance unit concepts, later achieving mainstream success." },
      { name: "Apink", key: "Apink", gen: ["gen2"], tooltip: "Debuted 2011-04-19 under A Cube Entertainment (now IST) with 'I Don’t Know.' Beloved for melodic pop, longevity, and smooth transition from cute to mature." },
-     { name: "April", key: "April", gen: ["gen3"], tooltip: "Debuted 2015-08-24 under DSP Media with 'Dream Candy.' Known for bright, youthful image and melodic pop songs." },
+     { name: "APRIL", key: "APRIL", gen: ["gen3"], tooltip: "Debuted 2015-08-24 under DSP Media with 'Dream Candy.' Known for bright, youthful image and melodic pop songs." },
      { name: "ARTMS", key: "ARTMS", gen: ["gen4"], tooltip: "Debuted 2024-05-31 under Modhaus with the album 'Dall.' Formed by former LOONA members, continuing with modern production and strong visuals." },
      { name: "AtHeart", key: "AtHeart", gen: ["gen5"], tooltip: "Debuted 2024-07 under RBW Entertainment with 'Love Bloom.' Fresh 5th-generation group with growing profile." },
      { name: "Baby DONT Cry", key: "Baby DONT Cry", gen: ["gen5"], tooltip: "Debuted 2024-09 with first digital single. Contemporary pop and dance-driven releases." },
-     { name: "BabyMonster", key: "BabyMonster", gen: ["gen5"], tooltip: "Debuted 2023-11-27 under YG Entertainment with 'Batter Up.' Rookie group noted for strong visuals and powerful performances." },
+     { name: "BABYMONSTER", key: "BABYMONSTER", gen: ["gen5"], tooltip: "Debuted 2023-11-27 under YG Entertainment with 'Batter Up.' Rookie group noted for strong visuals and powerful performances." },
      { name: "BADVILLAIN", key: "BADVILLAIN", gen: ["gen5"], tooltip: "Debuted 2024-05-03 under BPM Entertainment with 'BADVILLAIN.' Dark-concept rookies with edgy branding and modern production." },
      { name: "BEWAVE", key: "BEWAVE", gen: ["gen5"], tooltip: "BEWAVE is a South Korean trio under GoldDust Entertainment. They debuted on April 17, 2024" },
      { name: "Billlie", key: "Billlie", gen: ["gen4"], tooltip: "Debuted 2021-11-10 under Mystic Story with 'Ring X Ring.' Known for eclectic storytelling-driven concepts and experimental pop." },
-     { name: "Blackpink", key: "Blackpink", gen: ["gen3"], tooltip: "Debuted 2016-08-08 under YG Entertainment with 'Boombayah' and 'Whistle.' Global superstars blending hip-hop/EDM pop with iconic visuals." },
-     { name: "Brave Girls", key: "Brave Girls", gen: ["gen2"], tooltip: "Debuted 2011-04-07 under Brave Entertainment with 'Do You Know.' Rose to late-career fame in 2021 with viral hit 'Rollin’.'" },
+     { name: "BLACKPINK", key: "BLACKPINK", gen: ["gen3"], tooltip: "Debuted 2016-08-08 under YG Entertainment with 'Boombayah' and 'Whistle.' Global superstars blending hip-hop/EDM pop with iconic visuals." },
+     { name: "BBGIRLS", key: "BBGIRLS", gen: ["gen2"], tooltip: "Debuted 2011-04-07 under Brave Entertainment with 'Do You Know.' Rose to late-career fame in 2021 with viral hit 'Rollin’.'" },
      { name: "Brown Eyed Girls", key: "Brown Eyed Girls", gen: ["gen2"], tooltip: "Debuted 2006-03-02 under Nega Network with 'Come Closer.' Acclaimed for inventive concepts and strong vocals." },
      { name: "bugAboo", key: "bugAboo", gen: ["gen4"], tooltip: "Debuted 2021-10-25 under A Team Entertainment with 'bugAboo.' Quirky rookies with playful fantasy themes and high-energy pop." },
      { name: "Busters", key: "Busters", gen: ["gen4"], tooltip: "Debuted 2017-11-27 under JTG Entertainment with 'Dream On.' Dance-centric rookies focusing on spirited performances and youthful charm." },
-     { name: "Bvndit", key: "Bvndit", gen: ["gen4"], tooltip: "Debuted 2019-04-10 under MNH Entertainment with 'Hocus Pocus.' Recognized for strong vocals, sleek production, and moody aesthetics." },
+     { name: "BVNDIT", key: "BVNDIT", gen: ["gen4"], tooltip: "Debuted 2019-04-10 under MNH Entertainment with 'Hocus Pocus.' Recognized for strong vocals, sleek production, and moody aesthetics." },
      { name: "Candy Shop", key: "Candy Shop", gen: ["gen5"], tooltip: "Debuted 2024-03-27 under Brave Entertainment with 'Hashtag#.' Sweet-themed rookies offering bright, catchy pop and vivid styling." },
      { name: "Cherry Bullet", key: "Cherry Bullet", gen: ["gen4"], tooltip: "Debuted 2019-01-21 under FNC Entertainment with 'Q&A.' Known for bright, catchy pop songs and interactive concepts." },
-     { name: "Cignature", key: "Cignature", gen: ["gen4"], tooltip: "Debuted 2020-02-04 under J9 Entertainment with 'Nun Nu Nan Na.' Youthful pop act with cheeky hooks, tight formations, and fresh energy." },
+     { name: "cignature", key: "cignature", gen: ["gen4"], tooltip: "Debuted 2020-02-04 under J9 Entertainment with 'Nun Nu Nan Na.' Youthful pop act with cheeky hooks, tight formations, and fresh energy." },
      { name: "CLASS:y", key: "CLASS:y", gen: ["gen4"], tooltip: "Debuted 2022-05-05 under M25 Entertainment with 'Shut Down.' Survival-show group delivering confident pop, sharp performance, and variety charm." },
      { name: "CLC", key: "CLC", gen: ["gen3"], tooltip: "CLC (short for CrystaL Clear) is a girl group under Cube Entertainment. Originally as five, they debuted on March 19, 2015 with their first mini album First Love. In February 2016, the group added two new members: Elkie and Eunbin." },
-     { name: "Craxy", key: "Craxy", gen: ["gen4"], tooltip: "Debuted 2020-03-03 under S.A ITAINMENT with 'Aria.' Bold visuals, cinematic MV storytelling, and genre-fusing pop." },
+     { name: "CRAXY", key: "CRAXY", gen: ["gen4"], tooltip: "Debuted 2020-03-03 under S.A ITAINMENT with 'Aria.' Bold visuals, cinematic MV storytelling, and genre-fusing pop." },
      { name: "Crayon Pop", key: "Crayon Pop", gen: ["gen2"], tooltip: "Debuted 2012-07-18 under Chrome Entertainment with 'Saturday Night.' Famous for quirky choreography and viral hit 'Bar Bar Bar.'" },
      { name: "CrazAngel", key: "CrazAngel", gen: ["gen5"], tooltip: "CrazAngel is a 4-member global K-pop girl group under FORBEST Entertainment. They debuted on July 10, 2025." },
      { name: "CSR", key: "CSR", gen: ["gen4"], tooltip: "Debuted 2022-07-27 under A2Z Entertainment with 'Pop? Pop!.' Warm, nostalgic concepts paired with melodic pop and cohesive visuals." },
      { name: "Dal★Shabet", key: "Dal★Shabet", gen: ["gen2"], tooltip: "Debuted 2011-01-03 under Happy Face Entertainment with 'Supa Dupa Diva.' Upbeat 2010s group known for dance-pop singles and bright stage presence." },
      { name: "Davichi", key: "Davichi", gen: ["gen2"], tooltip: "Debuted 2008-02-04 under Core Contents Media with 'I Love You Even Though I Hate You.' Ballad duo celebrated for emotive vocals, chart-topping OSTs, and timeless songs." },
-     { name: "Dia", key: "Dia", gen: ["gen3"], tooltip: "Debuted 2015-09-14 under MBK Entertainment with 'Do It Amazing.' Melodic pop group with gentle aesthetics and member-driven charm." },
+     { name: "DIA", key: "DIA", gen: ["gen3"], tooltip: "Debuted 2015-09-14 under MBK Entertainment with 'Do It Amazing.' Melodic pop group with gentle aesthetics and member-driven charm." },
      { name: "dodree", key: "dodree", gen: ["gen5"], tooltip: "dodree is a South Korean girl duo under INNIT Entertainment (subsidiary label of JYP Entertainment). They debuted on Janaury 21, 2026, with their first digital single, “꿈만 같았다 (Just Like a Dream)”." },
-     { name: "Dreamcatcher", key: "Dreamcatcher", gen: ["gen3"], tooltip: "Debuted 2017-01-13 under Happy Face Entertainment with 'Chase Me.' Rock/metal-influenced idols with dark fantasy lore and intense choreography." },
+     { name: "DREAMCATCHER", key: "DREAMCATCHER", gen: ["gen3"], tooltip: "Debuted 2017-01-13 under Happy Face Entertainment with 'Chase Me.' Rock/metal-influenced idols with dark fantasy lore and intense choreography." },
      { name: "DreamNote", key: "DreamNote", gen: ["gen4"], tooltip: "Debuted 2018-11-07 under iMe Korea with 'Dreamlike.' Cheerful rookies delivering upbeat pop and lively fan engagement." },
      { name: "E11iVYN", key: "E11iVYN", gen: ["gen5"], tooltip: "The group was first introduced on December 23, 2024, as IWU. In late January 2025, the group rebranded to its current name. They officially debuted on October 30, 2025 with their first single “Orbit”." },
-     { name: "eite", key: "eite", gen: ["gen5"], tooltip: "eite is a girl group under EVA Entertainment. They made their debut on November 2, 2023 with the single album 'Independent Woman'" },
-     { name: "Everglow", key: "Everglow", gen: ["gen4"], tooltip: "Debuted 2019-03-18 under Yuehua Entertainment with 'Bon Bon Chocolat.' Sleek EDM/pop with powerful performances and strong international reach." },
+     { name: "EITE", key: "EITE", gen: ["gen5"], tooltip: "eite is a girl group under EVA Entertainment. They made their debut on November 2, 2023 with the single album 'Independent Woman'" },
+     { name: "EVERGLOW", key: "EVERGLOW", gen: ["gen4"], tooltip: "Debuted 2019-03-18 under Yuehua Entertainment with 'Bon Bon Chocolat.' Sleek EDM/pop with powerful performances and strong international reach." },
      { name: "EXID", key: "EXID", gen: ["gen3"], tooltip: "Debuted 2012-02-16 under AB Entertainment with 'Whoz That Girl.' Breakout group with viral hits, distinctive timbres, and confident stage energy." },
      { name: "f(x)", key: "f(x)", gen: ["gen2"], tooltip: "Debuted 2009-09-05 under SM Entertainment with 'LA chA TA.' Experimental electropop pioneers with artful concepts and trendsetting sound." },
-     { name: "Fiestar", key: "Fiestar", gen: ["gen2"], tooltip: "Debuted 2012-08-31 under LOEN Entertainment with 'Vista.' Solid vocalists delivering polished K-pop across playful and mature concepts." },
+     { name: "FIESTAR", key: "FIESTAR", gen: ["gen2"], tooltip: "Debuted 2012-08-31 under LOEN Entertainment with 'Vista.' Solid vocalists delivering polished K-pop across playful and mature concepts." },
      { name: "FIFTY FIFTY", key: "FIFTY FIFTY", gen: ["gen4"], tooltip: "Debuted 2022-11-18 under Attrakt with 'The Fifty.' Refined pop harmonies, minimal aesthetics, and sleeper global streaming success." },
-     { name: "Fromis 9", key: "Fromis 9", gen: ["gen4"], tooltip: "Debuted 2018-01-24 under Stone Music with 'To. Heart.' Precision choreography, bright hooks, and polished teamwork." },
-     { name: "(G)I-dle", key: "(G)I-dle", gen: ["gen4"], tooltip: "Debuted 2018-05-02 under Cube Entertainment with 'Latata.' Self-producing powerhouse famed for distinct concepts and member-led songwriting." },
+     { name: "fromis_9", key: "fromis_9", gen: ["gen4"], tooltip: "Debuted 2018-01-24 under Stone Music with 'To. Heart.' Precision choreography, bright hooks, and polished teamwork." },
+     { name: "i-dle", key: "i-dle", gen: ["gen4"], tooltip: "Debuted 2018-05-02 under Cube Entertainment with 'Latata.' Self-producing powerhouse famed for distinct concepts and member-led songwriting." },
      { name: "Gavy NJ", key: "Gavy NJ", gen: ["gen5"], tooltip: "Gavy NJ is a four-member Korean ballad group under DSP Media. They debuted on September 10th 2025." },
      { name: "Geenius", key: "Geenius", gen: ["gen5"], tooltip: "Debuted 2024-01 under independent label with first digital single. Indie-leaning rookies with airy pop and creative styling." },
-     { name: "GFriend", key: "GFriend", gen: ["gen3"], tooltip: "Debuted 2015-01-15 under Source Music with 'Glass Bead.' Intense choreography meets melodic, emotional pop and rich harmonies." },
+     { name: "GFRIEND", key: "GFRIEND", gen: ["gen3"], tooltip: "Debuted 2015-01-15 under Source Music with 'Glass Bead.' Intense choreography meets melodic, emotional pop and rich harmonies." },
      { name: "Girl's Day", key: "Girl's Day", gen: ["gen2"], tooltip: "Debuted 2010-07-07 under DreamT Entertainment with 'Tilt My Head.' Hitmaking 2010s group balancing playful charm with impressive vocals." },
      { name: "Girls' Generation", key: "Girls' Generation", gen: ["gen2"], tooltip: "Debuted 2007-08-05 under SM Entertainment with 'Into the New World.' Legendary icons with era-defining hits, vocal prowess, and longevity." },
-     { name: "Gugudan", key: "Gugudan", gen: ["gen3"], tooltip: "Debuted 2016-06-28 under Jellyfish Entertainment with 'Wonderland.' Vocal/performance-focused group with theatrical concepts and bright pop." },
+     { name: "gugudan", key: "gugudan", gen: ["gen3"], tooltip: "Debuted 2016-06-28 under Jellyfish Entertainment with 'Wonderland.' Vocal/performance-focused group with theatrical concepts and bright pop." },
      { name: "GWSN", key: "GWSN", gen: ["gen4"], tooltip: "Debuted 2018-09-05 under Kiwi Pop with 'Puzzle Moon.' Dreamy aesthetics, alternative-pop textures, and graceful performance." },
      { name: "H//PE Princess", key: "H//PE Princess", gen: ["gen5"], tooltip: "H//PE Princess, is a 7-member South Korean-Japanese girl group under Chapter-I, with activities managed in partnership with Amoeba Culture. The group was formed through the survival show Unpretty Rapstar : HIP POP Princess. They made their simultaneous debut in South Korea and Japan on May 27, 2026, with the release of their first mini album, 17.7." },
      { name: "H1-KEY", key: "H1-KEY", gen: ["gen4"], tooltip: "Debuted 2022-01-05 under GLG with 'Athletic Girl.' R&B-pop leanings, confident vocals, and sleek, modern concepts." },
      { name: "Hearts2Hearts", key: "Hearts2Hearts", gen: ["gen5"], tooltip: "Debuted 2024-02 under small label with first digital single. Indie-pop rookies with soft aesthetics and emotional themes." },
      { name: "Heart Of Woman", key: "Heart Of Woman", gen: ["gen5"], tooltip: "HEART OF WOMAN, also known as H.O.W, is a 5-member K-Pop girl group under BLUE BROWN RECORDS. They debuted on May 28, 2026." },
-     { name: "Hellovenus", key: "Hellovenus", gen: ["gen2"], tooltip: "Debuted 2012-05-09 under Pledis/Tricell with 'Venus.' Playful-meets-mature concepts with crisp vocals and bright visuals." },
+     { name: "Hello Venus", key: "Hello Venus", gen: ["gen2"], tooltip: "Debuted 2012-05-09 under Pledis/Tricell with 'Venus.' Playful-meets-mature concepts with crisp vocals and bright visuals." },
      { name: "HITGS", key: "HITGS", gen: ["gen5"], tooltip: "Debuted 2024-04 with first single album. New rookies with teen-focused imagery and contemporary pop styling." },
      { name: "I.MET.U", key: "I.MET.U", gen: ["gen5"], tooltip: "I.MET.U is an upcoming girl group formed through the survival show Time Turner produced by Makestar and PI Corporation. The group released their pre-debut single album, Velvet Trigger, on November 3, 2025." },
      { name: "I.O.I", key: "I.O.I", gen: ["gen3"], tooltip: "Debuted 2016-05-04 under YMC Entertainment with 'Dream Girls.' Produce 101 project group whose members seeded many later hits." },
-     { name: "ICHILLIN", key: "ICHILLIN", gen: ["gen4"], tooltip: "Debuted 2021-09-08 under KM Entertainment with 'Got'Ya.' Youthful pop with clean melodies and friendly visuals." },
+     { name: "ICHILLIN'", key: "ICHILLIN'", gen: ["gen4"], tooltip: "Debuted 2021-09-08 under KM Entertainment with 'Got'Ya.' Youthful pop with clean melodies and friendly visuals." },
      { name: "ifeye", key: "ifeye", gen: ["gen5"], tooltip: "Debuted 2024-06 with first digital single. Digital-first rookies experimenting with airy pop and minimalist aesthetics." },
      { name: "ILLIT", key: "ILLIT", gen: ["gen5"], tooltip: "Debuted 2024-03-25 under Belift Lab with 'Magnetic.' Hybe rookies with soft-toned pop and viral-friendly appeal." },
      { name: "ILY:1", key: "ILY:1", gen: ["gen4"], tooltip: "Debuted 2022-04-04 under FC ENM with 'Love in Bloom.' Bright bubblegum-pop with cohesive styling and approachable performance." },
@@ -90,66 +90,66 @@ dataSet[dataSetVersion].options = [
      { name: "IZ*ONE", key: "IZ*ONE", gen: ["gen4"], tooltip: "Debuted 2018-10-29 under Off the Record with 'La Vie en Rose.' Produce 48 project with lush pop and large-scale staging." },
      { name: "izna", key: "izna", gen: ["gen5"], tooltip: "Debuted 2024-08 with first digital single. New five-gen act with soft visuals and gentle pop." },
      { name: "Kandis", key: "Kandis", gen: ["gen5"], tooltip: "Kandis is a Korean girl group under 60DGRS. They released their first mixtape Show Me Your Vibe on March 14, 2022, as a pre-debut release. They debuted on August 27, 2023 with the single “BF” as a duo. They officially made their debut on January 14, 2025 with their first full album “Playground” as a full group." },
-     { name: "Kara", key: "Kara", gen: ["gen2"], tooltip: "Debuted 2007-03-29 under DSP Media with 'Break It.' Pan-Asian hitmakers with polished pop and lasting impact." },
+     { name: "KARA", key: "KARA", gen: ["gen2"], tooltip: "Debuted 2007-03-29 under DSP Media with 'Break It.' Pan-Asian hitmakers with polished pop and lasting impact." },
      { name: "KARD", key: "KARD", gen: ["gen3"], tooltip: "KARD is a four-member co-ed group under DSP Media. They officially debuted on July 19, 2017 with the mini album Hola Hola. Prior to their debut, the group released three pre-debut singles: 'Oh NaNa' on December 13, 2016, followed by 'Don't Recall' in February 16, 2017 and 'Rumor' on April 24, 2017. Their name summarizes the concept of playing cards, with each member being represented by a suit and/or face card. Their name stands for King, Ace, jokeR, & hiDden. " },
-     { name: "Kep1er", key: "Kep1er", gen: ["gen4"], tooltip: "Debuted 2022-01-03 under Wake One with 'Wa Da Da.' Survival-show group delivering synchronized performance and punchy pop." },
+     { name: "KEP1ER", key: "KEP1ER", gen: ["gen4"], tooltip: "Debuted 2022-01-03 under Wake One with 'Wa Da Da.' Survival-show group delivering synchronized performance and punchy pop." },
      { name: "Keyveatz", key: "Keyveatz", gen: ["gen5"], tooltip: "Keyveatz is a 5-member South Korean pre-debut girl crew under AOMG. They released their first pre-debut song, “Key Beats”, on April 29, 2026, followed by a second pre-debut track, “Catch My Breath”, on May 4, 2026.” They are set to debut sometime in 2026." },
      { name: "KiiiKiii", key: "KiiiKiii", gen: ["gen5"], tooltip: "Debuted 2024-05 with first single. Colorful rookies with niche online presence and playful aesthetics." },
      { name: "Kiiras", key: "Kiiras", gen: ["gen5"], tooltip: "Debuted 2024-06 with first digital single. New-gen idols blending modern pop and vibrant styling." },
      { name: "KISS OF LIFE", key: "KISS OF LIFE", gen: ["gen5"], tooltip: "Debuted 2023-07-05 under S2 Entertainment with 'Shhh.' Retro-tinged R&B-pop, strong vocals, and chic visuals." },
-     { name: "Laboum", key: "Laboum", gen: ["gen3"], tooltip: "Debuted 2014-08-28 under NH Media with 'Pit-a-Pat.' Melodic mid-tempo pop with soft visuals and steady fan engagement." },
-     { name: "Ladies' code", key: "Ladies' code", gen: ["gen3"], tooltip: "Debuted 2013-03-07 under Polaris Entertainment with 'Bad Girl.' Vocal-focused group noted for emotional releases and resilient artistry." },
+     { name: "LABOUM", key: "LABOUM", gen: ["gen3"], tooltip: "Debuted 2014-08-28 under NH Media with 'Pit-a-Pat.' Melodic mid-tempo pop with soft visuals and steady fan engagement." },
+     { name: "LADIES' CODE", key: "LADIES' CODE", gen: ["gen3"], tooltip: "Debuted 2013-03-07 under Polaris Entertainment with 'Bad Girl.' Vocal-focused group noted for emotional releases and resilient artistry." },
      { name: "LAPILLUS", key: "LAPILLUS", gen: ["gen4"], tooltip: "Debuted 2022-06-20 under MLD Entertainment with 'Hit Ya!' Upbeat rookies with global members, dynamic concepts, and bright pop." },
      { name: "LATENCY", key: "LATENCY", gen: ["gen5"], tooltip: "LATENCY is a Korean project girl band under Oddinary Records. They debuted on January 8, 2026, with the digital single It Was Love." },
      { name: "Laysha", key: "Laysha", gen: ["gen3"], tooltip: "Debuted 2015-05 under JS Entertainment with 'Turn Up The Music.' Dance/R&B-influenced performances with mature, club-ready styling." },
      { name: "LE SSERAFIM", key: "LE SSERAFIM", gen: ["gen4"], tooltip: "Debuted 2022-05-02 under Source Music with 'Fearless.' Bold branding, polished production, and confident, athletic stagecraft." },
-     { name: "Lightsum", key: "Lightsum", gen: ["gen4"], tooltip: "Debuted 2021-06-10 under Cube Entertainment with 'Vanilla.' Radiant rookies offering crisp choreography and clean, melodic pop." },
-     { name: "Loossemble", key: "Loossemble", gen: ["gen4"], tooltip: "Debuted 2023-09-15 under CTDENM with 'Sensitive.' LOONA-lineup spin-off with warm aesthetics and story-rich pop." },
-     { name: "Lovelyz", key: "Lovelyz", gen: ["gen3"], tooltip: "Debuted 2014-11-12 under Woollim Entertainment with 'Candy Jelly Love.' Soft, synthy melodies, angelic visuals, and refined vocal blends." },
+     { name: "LIGHTSUM", key: "LIGHTSUM", gen: ["gen4"], tooltip: "Debuted 2021-06-10 under Cube Entertainment with 'Vanilla.' Radiant rookies offering crisp choreography and clean, melodic pop." },
+     { name: "LOOSSEMBLE", key: "LOOSSEMBLE", gen: ["gen4"], tooltip: "Debuted 2023-09-15 under CTDENM with 'Sensitive.' LOONA-lineup spin-off with warm aesthetics and story-rich pop." },
+     { name: "LOVELYZ", key: "LOVELYZ", gen: ["gen3"], tooltip: "Debuted 2014-11-12 under Woollim Entertainment with 'Candy Jelly Love.' Soft, synthy melodies, angelic visuals, and refined vocal blends." },
      { name: "LOVEONE", key: "LOVEONE", gen: ["gen5"], tooltip: "LOVEONE is a four-member girl group under CMG Stars. Originally as five, they made their debut on November 22, 2024 with the single album 'Funny Honey'." },
-     { name: "Madein", key: "Madein", gen: ["gen5"], tooltip: "Debuted 2024-05 with first digital single. New rookies with indie-pop touches and understated, modern styling." },
+     { name: "MADEIN", key: "MADEIN", gen: ["gen5"], tooltip: "Debuted 2024-05 with first digital single. New rookies with indie-pop touches and understated, modern styling." },
      { name: "MAJORS", key: "MAJORS", gen: ["gen4"], tooltip: "Debuted 2021-03-09 under ANS Entertainment with 'The Beginning of Legend.' Performance-centric rookies emphasizing sharp choreography and trendy pop." },
-     { name: "Mamamoo", key: "Mamamoo", gen: ["gen3"], tooltip: "Debuted 2014-06-18 under RBW with 'Mr. Ambiguous.' Vocal powerhouses with soulful influences, witty concepts, and live prowess." },
-     { name: "Meovv", key: "Meovv", gen: ["gen5"], tooltip: "Debuted 2024-07 with first digital single. Experimental rookies exploring airy, modern pop and artsy visuals." },
+     { name: "MAMAMOO", key: "MAMAMOO", gen: ["gen3"], tooltip: "Debuted 2014-06-18 under RBW with 'Mr. Ambiguous.' Vocal powerhouses with soulful influences, witty concepts, and live prowess." },
+     { name: "MEOVV", key: "MEOVV", gen: ["gen5"], tooltip: "Debuted 2024-07 with first digital single. Experimental rookies exploring airy, modern pop and artsy visuals." },
      { name: "mimiirose", key: "mimiirose", gen: ["gen4"], tooltip: "Debuted 2022-09-16 under YES IM Entertainment with 'Awesome.' Indie-leaning aesthetics, refined pop production, and elegant styling." },
-     { name: "Miss A", key: "Miss A", gen: ["gen2"], tooltip: "Debuted 2010-07-01 under JYP Entertainment with 'Bad Girl Good Girl.' Quartet known for bold concepts, chart hits, and strong vocals." },
-     { name: "Momoland", key: "Momoland", gen: ["gen3"], tooltip: "Debuted 2016-11-10 under MLD Entertainment with 'Welcome to Momoland.' Viral dance-pop with playful hooks and energetic performances." },
-     { name: "Nature", key: "Nature", gen: ["gen4"], tooltip: "Debuted 2018-08-03 under n.CH Entertainment with 'Girls and Flowers.' Bright nature-themed pop with colorful visuals and lively choreography." },
+     { name: "miss A", key: "miss A", gen: ["gen2"], tooltip: "Debuted 2010-07-01 under JYP Entertainment with 'Bad Girl Good Girl.' Quartet known for bold concepts, chart hits, and strong vocals." },
+     { name: "MOMOLAND", key: "MOMOLAND", gen: ["gen3"], tooltip: "Debuted 2016-11-10 under MLD Entertainment with 'Welcome to Momoland.' Viral dance-pop with playful hooks and energetic performances." },
+     { name: "NATURE", key: "NATURE", gen: ["gen4"], tooltip: "Debuted 2018-08-03 under n.CH Entertainment with 'Girls and Flowers.' Bright nature-themed pop with colorful visuals and lively choreography." },
      { name: "NAVILLERA", key: "NAVILLERA", gen: ["gen5"], tooltip: "NAVILLERA is a 5-member South Korean girl group under Troy Entertainment. They made their official debut on February 3, 2026 with the single “NO LIMIT”." },
      { name: "NeonPunch", key: "NeonPunch", gen: ["gen4"], tooltip: "Debuted 2018-06-27 under A100 Entertainment with 'Moonlight.' Short-lived rookies remembered for energetic tracks and dance focus." },
      { name: "NewJeans", key: "NewJeans", gen: ["gen4"], tooltip: "Debuted 2022-08-01 under ADOR with 'Attention.' Y2K-inspired prodigies with minimalist pop, viral appeal, and cool styling." },
-     { name: "Nmixx", key: "Nmixx", gen: ["gen4"], tooltip: "Debuted 2022-02-22 under JYP Entertainment with 'O.O.' Multi-vocalists known for genre-blending ‘MIXX POP’ and complex performance." },
+     { name: "NMIXX", key: "NMIXX", gen: ["gen4"], tooltip: "Debuted 2022-02-22 under JYP Entertainment with 'O.O.' Multi-vocalists known for genre-blending ‘MIXX POP’ and complex performance." },
      { name: "ODD YOUTH", key: "ODD YOUTH", gen: ["gen5"], tooltip: "Debuted 2024-06 with first digital single. Alt-pop rookies with moody aesthetics, DIY flair, and intimate releases." },
-     { name: "Oh My Girl", key: "Oh My Girl", gen: ["gen3"], tooltip: "Debuted 2015-04-20 under WM Entertainment with 'Cupid.' Whimsical concepts, pretty harmonies, and fairytale-inflected pop." },
-     { name: "Pixy", key: "Pixy", gen: ["gen4"], tooltip: "Debuted 2021-02-24 under Allart Entertainment with 'With My Wings.' Dark, fantasy-lore concepts with ethereal visuals and theatrical performances." },
+     { name: "OH MY GIRL", key: "OH MY GIRL", gen: ["gen3"], tooltip: "Debuted 2015-04-20 under WM Entertainment with 'Cupid.' Whimsical concepts, pretty harmonies, and fairytale-inflected pop." },
+     { name: "PIXY", key: "PIXY", gen: ["gen4"], tooltip: "Debuted 2021-02-24 under Allart Entertainment with 'With My Wings.' Dark, fantasy-lore concepts with ethereal visuals and theatrical performances." },
      { name: "PRIMROSE", key: "PRIMROSE", gen: ["gen4"], tooltip: "Debuted 2023-01-13 under A.O Entertainment with 'Red Moon.' Soulful pop duo with elegant imagery and emotive vocal focus." },
-     { name: "Pristin", key: "Pristin", gen: ["gen3"], tooltip: "Debuted 2017-03-21 under Pledis Entertainment with 'Wee Woo.' Member-composed pop, bright teen aesthetics, and spirited performance." },
-     { name: "Purple Kiss", key: "Purple Kiss", gen: ["gen4"], tooltip: "Debuted 2021-03-15 under RBW with 'Ponzona.' RBW act blending R&B and pop with self-written tracks and rich vocals." },
+     { name: "PRISTIN", key: "PRISTIN", gen: ["gen3"], tooltip: "Debuted 2017-03-21 under Pledis Entertainment with 'Wee Woo.' Member-composed pop, bright teen aesthetics, and spirited performance." },
+     { name: "PURPLE KISS", key: "PURPLE KISS", gen: ["gen4"], tooltip: "Debuted 2021-03-15 under RBW with 'Ponzona.' RBW act blending R&B and pop with self-written tracks and rich vocals." },
      { name: "Queenz Eye", key: "Queenz Eye", gen: ["gen4"], tooltip: "Queenz Eye is a 6-member South Korean girl group under Big Mountain Ent. and SISO. They debuted on October 24, 2022." },
      { name: "QWER", key: "QWER", gen: ["gen5"], tooltip: "Debuted 2023-10-18 under Tamago Production with 'Harmony from Discord.' Eclectic rookies with band-leaning concepts, bold colors, and online buzz." },
      { name: "Rainbow", key: "Rainbow", gen: ["gen2"], tooltip: "Debuted 2009-11-12 under DSP Media with 'Gossip Girl.' Early 2010s group delivering polished dance-pop and varied concepts." },
      { name: "Red Velvet", key: "Red Velvet", gen: ["gen3"], tooltip: "Debuted 2014-08-01 under SM Entertainment with 'Happiness.' Known for dual 'red/velvet' identity mixing vivid pop with smooth R&B sophistication." },
-     { name: "ReScene", key: "ReScene", gen: ["gen5"], tooltip: "Debuted 2024-04 with first digital single. Indie-pop rookies with soft visuals, subtle storytelling, and intimate tracks." },
+     { name: "RESCENE", key: "RESCENE", gen: ["gen5"], tooltip: "Debuted 2024-04 with first digital single. Indie-pop rookies with soft visuals, subtle storytelling, and intimate tracks." },
      { name: "Rocket Punch", key: "Rocket Punch", gen: ["gen4"], tooltip: "Debuted 2019-08-07 under Woollim Entertainment with 'Bim Bam Bum.' Upbeat hooks, crisp formations, and bright, candy-colored pop." },
      { name: "S.E.S.", key: "S.E.S.", gen: ["gen1"], tooltip: "Debuted 1997-11-28 under SM Entertainment with 'I'm Your Girl.' First-gen icons who set the template for K-pop girl group success." },
-     { name: "Say My Name", key: "Say My Name", gen: ["gen5"], tooltip: "Debuted 2024-05 with first digital single. Rookie project with sleek visuals, pan-Asian members, and trendy pop." },
+     { name: "SAY MY NAME", key: "SAY MY NAME", gen: ["gen5"], tooltip: "Debuted 2024-05 with first digital single. Rookie project with sleek visuals, pan-Asian members, and trendy pop." },
      { name: "Secret", key: "Secret", gen: ["gen2"], tooltip: "Debuted 2009-10-13 under TS Entertainment with 'I Want You Back.' Hitmaking 2010s group with radio-friendly pop and glamorous concepts." },
-     { name: "Secret Number", key: "Secret Number", gen: ["gen4"], tooltip: "Debuted 2020-05-19 under Vine Entertainment with 'Who Dis?' Multinational lineup delivering polished pop and global-facing branding." },
-     { name: "Sistar", key: "Sistar", gen: ["gen2"], tooltip: "Debuted 2010-06-03 under Starship Entertainment with 'Push Push.' Summer queens with powerhouse vocals, beachy hits, and chart dominance." },
-     { name: "Sonamoo", key: "Sonamoo", gen: ["gen3"], tooltip: "Debuted 2014-12-29 under TS Entertainment with 'Deja Vu.' Dance-driven stages with bright teen-pop and confident performance." },
+     { name: "SECRET NUMBER", key: "SECRET NUMBER", gen: ["gen4"], tooltip: "Debuted 2020-05-19 under Vine Entertainment with 'Who Dis?' Multinational lineup delivering polished pop and global-facing branding." },
+     { name: "SISTAR", key: "SISTAR", gen: ["gen2"], tooltip: "Debuted 2010-06-03 under Starship Entertainment with 'Push Push.' Summer queens with powerhouse vocals, beachy hits, and chart dominance." },
+     { name: "SONAMOO", key: "SONAMOO", gen: ["gen3"], tooltip: "Debuted 2014-12-29 under TS Entertainment with 'Deja Vu.' Dance-driven stages with bright teen-pop and confident performance." },
      { name: "SPICA", key: "SPICA", gen: ["gen2"], tooltip: "Debuted 2012-02-09 under B2M Entertainment with 'Russian Roulette.' Acclaimed vocalists known for commanding ballads and soulful pop." },
      { name: "STAYC", key: "STAYC", gen: ["gen4"], tooltip: "Debuted 2020-11-12 under High Up Entertainment with 'So Bad.' Hook-rich teen-pop, standout vocal color, and strong streaming metrics." },
      { name: "Stellar", key: "Stellar", gen: ["gen2"], tooltip: "Debuted 2011-08-28 under Top Class Entertainment with 'Rocket Girl.' Bold concepts and provocative visuals paired with infectious dance-pop." },
-     { name: "T-ara", key: "T-ara", gen: ["gen2"], tooltip: "Debuted 2009-07-29 under Core Contents Media with 'Lie.' Iconic 2010s group with earworm choruses and prolific hit streaks." },
+     { name: "T-ARA", key: "T-ARA", gen: ["gen2"], tooltip: "Debuted 2009-07-29 under Core Contents Media with 'Lie.' Iconic 2010s group with earworm choruses and prolific hit streaks." },
      { name: "Tri.be", key: "Tri.be", gen: ["gen4"], tooltip: "Debuted 2021-02-17 under TR Entertainment with 'Doom Doom Ta.' Global rookies delivering assertive dance-pop and dynamic formations." },
      { name: "tripleS", key: "tripleS", gen: ["gen4"], tooltip: "Debuted 2022-10-28 under Modhaus with 'Generation.' Modular concept group with fan participation, subunits, and novel releases." },
-     { name: "Twice", key: "Twice", gen: ["gen3"], tooltip: "Debuted 2015-10-20 under JYP Entertainment with 'Like OOH-AHH.' Asia-spanning hitmakers with addictive hooks, synchronized stages, and charm." },
+     { name: "TWICE", key: "TWICE", gen: ["gen3"], tooltip: "Debuted 2015-10-20 under JYP Entertainment with 'Like OOH-AHH.' Asia-spanning hitmakers with addictive hooks, synchronized stages, and charm." },
      { name: "UDTT", key: "UDTT", gen: ["gen5"], tooltip: "UDTT is a five-member girl group under SW Entertainment. They made their debut on April 29, 2025 with the single album 'School Rush'." },
      { name: "UNCHILD", key: "UNCHILD", gen: ["gen5"], tooltip: "UNCHILD, formerly known as HighUp Baby and HighUp Trainees, is a 6-member South Korean girl group under HighUp Entertainment. They debuted on April 21, 2026, with their first single, “We Are UNCHILD”." },
      { name: "UNIS", key: "UNIS", gen: ["gen5"], tooltip: "Debuted 2024-03-27 under F&F Entertainment with 'Superwoman.' Survival-show rookies with diverse members and polished modern pop." },
      { name: "USPEER", key: "USPEER", gen: ["gen5"], tooltip: "Debuted 2024-06 with first digital single. Emerging rookies emphasizing trendy styling and digital-first promotion." },
      { name: "VIV", key: "VIV", gen: ["gen5"], tooltip: "Debuted 2024-07 with first single album. New idol group with bright choreography and clean pop textures." },
-     { name: "Viviz", key: "Viviz", gen: ["gen4"], tooltip: "Debuted 2022-02-09 under BPM Entertainment with 'Bop Bop!' Trio of former GFriend members with mature pop and sleek visuals." },
+     { name: "VIVIZ", key: "VIVIZ", gen: ["gen4"], tooltip: "Debuted 2022-02-09 under BPM Entertainment with 'Bop Bop!' Trio of former GFriend members with mature pop and sleek visuals." },
      { name: "VVS", key: "VVS", gen: ["gen5"], tooltip: "VVS is a 5-member South Korean girl group under MZMC. They debuted on April 22, 2025 with the digital single “Tea,” and their 1st mini album D.I.M.M was released on May 19, 2025." },
      { name: "VVUP", key: "VVUP", gen: ["gen5"], tooltip: "Debuted 2024-05 with first digital single. Rookie-era act with upbeat pop concepts and contemporary production." },
      { name: "Weeekly", key: "Weeekly", gen: ["gen4"], tooltip: "Debuted 2020-06-30 under IST Entertainment with 'Tag Me (@Me).' Bubbly teen-pop paired with sharp formations and school-life themes." },
@@ -159,7 +159,7 @@ dataSet[dataSetVersion].options = [
      { name: "Wonder Girls", key: "Wonder Girls", gen: ["gen2"], tooltip: "Debuted 2007-02-10 under JYP Entertainment with 'Irony.' Retro-pop pioneers with international crossover and era-defining singles." },
      { name: "WOOAH", key: "WOOAH", gen: ["gen4"], tooltip: "Debuted 2020-05-13 under NV Entertainment with 'Exclamation.' Dance-heavy rookies with vibrant visuals and energetic pop." },
      { name: "X:IN", key: "X:IN", gen: ["gen4"], tooltip: "Debuted 2023-04-11 under ESCROW Entertainment with 'Keeping the Fire.' Multinational rookies with modern pop, striking styling, and bold branding." },
-     { name: "Young Posse", key: "Young Posse", gen: ["gen5"], tooltip: "Debuted 2023-10-18 under Beats Entertainment with 'Macaroni Cheese.' Trendy pop rookies with social-media savvy and rising buzz." },
+     { name: "YOUNG POSSE", key: "YOUNG POSSE", gen: ["gen5"], tooltip: "Debuted 2023-10-18 under Beats Entertainment with 'Macaroni Cheese.' Trendy pop rookies with social-media savvy and rising buzz." },
       // Solo artists (added concise descriptors for consistency)
      { name: "Ailee", key: "Ailee", tooltip: "Debuted 2012-02-09 under YMC Entertainment with 'Heaven.' Vocal powerhouse soloist known for soaring ballads and OST hits." },
      { name: "Alexa", key: "Alexa", tooltip: "Debuted 2019-10-21 under ZB Label with 'Bomb.' High-concept soloist mixing K-pop with sci-fi visuals and bold EDM-pop." },
@@ -219,64 +219,64 @@ dataSet[dataSetVersion].options = [
       {name: "9Muses", key: "9Muses"},
       {name: "ablume", key: "ablume"},
       {name: "ADYA", key: "ADYA"},
-      {name: "Aespa", key: "Aespa"},
+      {name: "aespa", key: "aespa"},
       {name: "After School", key: "After School"},
-      {name: "Alice", key: "Alice"},
+      {name: "ALICE", key: "ALICE"},
       {name: "AOA", key: "AOA"},
       {name: "Apink", key: "Apink"},
-      {name: "April", key: "April"},
+      {name: "APRIL", key: "APRIL"},
       {name: "ARTMS", key: "ARTMS"},
       {name: "AtHeart", key: "AtHeart"},
       {name: "Baby DONT Cry", key: "Baby DONT Cry"},
-      {name: "BabyMonster", key: "BabyMonster"},
+      {name: "BABYMONSTER", key: "BABYMONSTER"},
       {name: "BADVILLAIN", key: "BADVILLAIN"},
       {name: "BEWAVE", key: "BEWAVE"},
       {name: "Billlie", key: "Billlie"},
-      {name: "Blackpink", key: "Blackpink"},
-      {name: "Brave Girls", key: "Brave Girls"},
+      {name: "BLACKPINK", key: "BLACKPINK"},
+      {name: "BBGIRLS", key: "BBGIRLS"},
       {name: "Brown Eyed Girls", key: "Brown Eyed Girls"},
       {name: "bugAboo", key: "bugAboo"},
       {name: "Busters", key: "Busters"},
-      {name: "Bvndit", key: "Bvndit"},
+      {name: "BVNDIT", key: "BVNDIT"},
       {name: "Candy Shop", key: "Candy Shop"},
       {name: "Cherry Bullet", key: "Cherry Bullet"},
-      {name: "Cignature", key: "Cignature"},
+      {name: "cignature", key: "cignature"},
       {name: "CLASS:y", key: "CLASS:y"},
       {name: "CLC", key: "CLC"},
-      {name: "Craxy", key: "Craxy"},
+      {name: "CRAXY", key: "CRAXY"},
       {name: "Crayon Pop", key: "Crayon Pop"},
       {name: "CrazAngel", key: "CrazAngel"},
       {name: "CSR", key: "CSR"},
       {name: "Dal★Shabet", key: "Dal★Shabet"},
       {name: "Davichi", key: "Davichi"},
-      {name: "Dia", key: "Dia"},
+      {name: "DIA", key: "DIA"},
       {name: "Dodree", key: "Dodree"},
-      {name: "Dreamcatcher", key: "Dreamcatcher"},
+      {name: "DREAMCATCHER", key: "DREAMCATCHER"},
       {name: "DreamNote", key: "DreamNote"},
       {name: "E11iVYN", key: "E11iVYN"},
-      {name: "eite", key: "eite"},
-      {name: "Everglow", key: "Everglow"},
+      {name: "EITE", key: "EITE"},
+      {name: "EVERGLOW", key: "EVERGLOW"},
       {name: "EXID", key: "EXID"},
       {name: "f(x)", key: "f(x)"},
-      {name: "Fiestar", key: "Fiestar"},
+      {name: "FIESTAR", key: "FIESTAR"},
       {name: "FIFTY FIFTY", key: "FIFTY FIFTY"},
-      {name: "Fromis 9", key: "Fromis 9"},
-      {name: "(G)I-dle", key: "(G)I-dle"},
+      {name: "fromis_9", key: "fromis_9"},
+      {name: "i-dle", key: "i-dle"},
       {name: "Gavy NJ", key: "Gavy NJ"},
       {name: "Geenius", key: "Geenius"},
-      {name: "GFriend", key: "GFriend"},
+      {name: "GFRIEND", key: "GFRIEND"},
       {name: "Girl's Day", key: "Girl's Day"},
       {name: "Girls' Generation", key: "Girls' Generation"},
-      {name: "Gugudan", key: "Gugudan"},
+      {name: "gugudan", key: "gugudan"},
       {name: "GWSN", key: "GWSN"},
       {name: "H//PE Princess", key: "H//PE Princess"},
       {name: "H1-KEY", key: "H1-KEY"},
       {name: "Heart Of Woman", key: "Heart Of Woman"},
       {name: "Hearts2Hearts", key: "Hearts2Hearts"},
-      {name: "Hellovenus", key: "Hellovenus"},
+      {name: "Hello Venus", key: "Hello Venus"},
       {name: "HITGS", key: "HITGS"},
       {name: "I.O.I", key: "I.O.I"},
-      {name: "ICHILLIN", key: "ICHILLIN"},
+      {name: "ICHILLIN'", key: "ICHILLIN'"},
       {name: "ifeye", key: "ifeye"},
       {name: "ILLIT", key: "ILLIT"},
       {name: "ILY:1", key: "ILY:1"},
@@ -286,65 +286,65 @@ dataSet[dataSetVersion].options = [
       {name: "IZ*ONE", key: "IZ*ONE"},
       {name: "izna", key: "izna"},
       {name: "Kandis", key: "Kandis"},
-      {name: "Kara", key: "Kara"},
-      {name: "Kep1er", key: "Kep1er"},
+      {name: "KARA", key: "KARA"},
+      {name: "KEP1ER", key: "KEP1ER"},
       {name: "Keyveatz", key: "Keyveatz"},
       {name: "KiiiKiii", key: "KiiiKiii"},
       {name: "Kiiras", key: "Kiiras"},
       {name: "KISS OF LIFE", key: "KISS OF LIFE"},
-      {name: "Laboum", key: "Laboum"},
-      {name: "Ladies' code", key: "Ladies' code"},
+      {name: "LABOUM", key: "LABOUM"},
+      {name: "LADIES' CODE", key: "LADIES' CODE"},
       {name: "LAPILLUS", key: "LAPILLUS"},
       {name: "LATENCY", key: "LATENCY"},
       {name: "Laysha", key: "Laysha"},
       {name: "LE SSERAFIM", key: "LE SSERAFIM"},
-      {name: "Lightsum", key: "Lightsum"},
-      {name: "Loossemble", key: "Loossemble"},
-      {name: "Lovelyz", key: "Lovelyz"},
+      {name: "LIGHTSUM", key: "LIGHTSUM"},
+      {name: "LOOSSEMBLE", key: "LOOSSEMBLE"},
+      {name: "LOVELYZ", key: "LOVELYZ"},
       {name: "LOVEONE", key: "LOVEONE"},
-      {name: "Madein", key: "Madein"},
+      {name: "MADEIN", key: "MADEIN"},
       {name: "MAJORS", key: "MAJORS"},
-      {name: "Mamamoo", key: "Mamamoo"},
-      {name: "Meovv", key: "Meovv"},
+      {name: "MAMAMOO", key: "MAMAMOO"},
+      {name: "MEOVV", key: "MEOVV"},
       {name: "mimiirose", key: "mimiirose"},
-      {name: "Miss A", key: "Miss A"},
-      {name: "Momoland", key: "Momoland"},
-      {name: "Nature", key: "Nature"},
+      {name: "miss A", key: "miss A"},
+      {name: "MOMOLAND", key: "MOMOLAND"},
+      {name: "NATURE", key: "NATURE"},
       {name: "NAVILLERA", key: "NAVILLERA"},
       {name: "NeonPunch", key: "NeonPunch"},
       {name: "NewJeans", key: "NewJeans"},
-      {name: "Nmixx", key: "Nmixx"},
+      {name: "NMIXX", key: "NMIXX"},
       {name: "ODD YOUTH", key: "ODD YOUTH"},
-      {name: "Oh My Girl", key: "Oh My Girl"},
-      {name: "Pixy", key: "Pixy"},
+      {name: "OH MY GIRL", key: "OH MY GIRL"},
+      {name: "PIXY", key: "PIXY"},
       {name: "PRIMROSE", key: "PRIMROSE"},
-      {name: "Pristin", key: "Pristin"},
-      {name: "Purple Kiss", key: "Purple Kiss"},
+      {name: "PRISTIN", key: "PRISTIN"},
+      {name: "PURPLE KISS", key: "PURPLE KISS"},
       {name: "Queenz Eye", key: "Queenz Eye"},
       {name: "QWER", key: "QWER"},
       {name: "Rainbow", key: "Rainbow"},
       {name: "Red Velvet", key: "Red Velvet"},
-      {name: "ReScene", key: "ReScene"},
+      {name: "RESCENE", key: "RESCENE"},
       {name: "Rocket Punch", key: "Rocket Punch"},
-      {name: "Say My Name", key: "Say My Name"},
+      {name: "SAY MY NAME", key: "SAY MY NAME"},
       {name: "Secret", key: "Secret"},
-      {name: "Secret Number", key: "Secret Number"},
-      {name: "Sistar", key: "Sistar"},
-      {name: "Sonamoo", key: "Sonamoo"},
+      {name: "SECRET NUMBER", key: "SECRET NUMBER"},
+      {name: "SISTAR", key: "SISTAR"},
+      {name: "SONAMOO", key: "SONAMOO"},
       {name: "SPICA", key: "SPICA"},
       {name: "STAYC", key: "STAYC"},
       {name: "Stellar", key: "Stellar"},
       {name: "Sunny Hill", key: "Sunny Hill"},
-      {name: "T-ara", key: "T-ara"},
+      {name: "T-ARA", key: "T-ARA"},
       {name: "Tri.be", key: "Tri.be"},
       {name: "tripleS", key: "tripleS"},
-      {name: "Twice", key: "Twice"},
+      {name: "TWICE", key: "TWICE"},
       {name: "UDTT", key: "UDTT"},
       {name: "UNCHILD", key: "UNCHILD"},
       {name: "UNIS", key: "UNIS"},
       {name: "USPEER", key: "USPEER"},
       {name: "VIV", key: "VIV"},
-      {name: "Viviz", key: "Viviz"},
+      {name: "VIVIZ", key: "VIVIZ"},
       {name: "VVS", key: "VVS"},
       {name: "VVUP", key: "VVUP"},
       {name: "Weeekly", key: "Weeekly"},
@@ -353,7 +353,7 @@ dataSet[dataSetVersion].options = [
       {name: "Wonder Girls", key: "Wonder Girls"},
       {name: "WOOAH", key: "WOOAH"},
       {name: "X:IN", key: "X:IN"},
-      {name: "Young Posse", key: "Young Posse"},
+      {name: "YOUNG POSSE", key: "YOUNG POSSE"},
     ]
   },
   {
@@ -443,10 +443,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Hellovenus Alice",
+        name: "Hello Venus Alice",
         img: "L80EqJw.jpeg",
         opts: {
-            group: ["Hellovenus"],
+            group: ["Hello Venus"],
             gen: ["gen2"]
         }
     },
@@ -459,10 +459,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "T-ara Areum",
+        name: "T-ARA Areum",
         img: "ykZoQ4f.png",
         opts: {
-            group: ["T-ara"],
+            group: ["T-ARA"],
             gen: ["gen2"]
         }
     },
@@ -507,18 +507,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Sistar Bora",
+        name: "SISTAR Bora",
         img: "Hs8FBDs.png",
         opts: {
-            group: ["Sistar"],
+            group: ["SISTAR"],
             gen: ["gen2"]
         }
     },
     {
-        name: "T-ara Boram",
+        name: "T-ARA Boram",
         img: "IGHUvD6.jpeg",
         opts: {
-            group: ["T-ara"],
+            group: ["T-ARA"],
             gen: ["gen2"]
         }
     },
@@ -531,10 +531,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Fiestar Cao Lu",
+        name: "FIESTAR Cao Lu",
         img: "CPb4yFd.png",
         opts: {
-            group: ["Fiestar"],
+            group: ["FIESTAR"],
             gen: ["gen2"]
         }
     },
@@ -579,10 +579,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Sistar Dasom",
+        name: "SISTAR Dasom",
         img: "B8R9gpZ.png",
         opts: {
-            group: ["Sistar"],
+            group: ["SISTAR"],
             gen: ["gen2"]
         }
     },
@@ -619,10 +619,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Brave Girls Eunji",
+        name: "BBGIRLS Eunji",
         img: "lB3n0ZP.jpeg",
         opts: {
-            group: ["Brave Girls"],
+            group: ["BBGIRLS"],
             gen: ["gen2"]
         }
     },
@@ -635,26 +635,26 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "T-ara Eunjung",
+        name: "T-ARA Eunjung",
         img: "zKKE3sB.png",
         opts: {
-            group: ["T-ara"],
+            group: ["T-ARA"],
             gen: ["gen2"]
         }
     },
     {
-        name: "Brave Girls Eunyoung",
+        name: "BBGIRLS Eunyoung",
         img: "rNZ7IZz.png",
         opts: {
-            group: ["Brave Girls"],
+            group: ["BBGIRLS"],
             gen: ["gen2"]
         }
     },
     {
-        name: "Miss A Fei",
+        name: "miss A Fei",
         img: "lP6qqL5.jpeg",
         opts: {
-            group: ["Miss A"],
+            group: ["miss A"],
             gen: ["gen2"]
         }
     },
@@ -683,10 +683,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Kara Goo Hara",
+        name: "KARA Goo Hara",
         img: "grCkR4r.jpeg",
         opts: {
-            group: ["Kara"],
+            group: ["KARA"],
             gen: ["gen2"]
         }
     },
@@ -739,18 +739,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Brave Girls Hayun",
+        name: "BBGIRLS Hayun",
         img: "dDBDWKs.png",
         opts: {
-            group: ["Brave Girls"],
+            group: ["BBGIRLS"],
             gen: ["gen2"]
         }
     },
     {
-        name: "T-ara Hwayoung",
+        name: "T-ARA Hwayoung",
         img: "X1EYi5P.jpg",
         opts: {
-            group: ["T-ara"],
+            group: ["T-ARA"],
             gen: ["gen2"]
         }
     },
@@ -779,10 +779,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Brave Girls Hyeran",
+        name: "BBGIRLS Hyeran",
         img: "DSIOLO0.jpeg",
         opts: {
-            group: ["Brave Girls"],
+            group: ["BBGIRLS"],
             gen: ["gen2"]
         }
     },
@@ -827,10 +827,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "T-ara Hyomin",
+        name: "T-ARA Hyomin",
         img: "SPub0fe.jpeg",
         opts: {
-            group: ["T-ara"],
+            group: ["T-ARA"],
             gen: ["gen2"]
         }
     },
@@ -875,10 +875,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Fiestar Jei",
+        name: "FIESTAR Jei",
         img: "RKNbiuS.png",
         opts: {
-            group: ["Fiestar"],
+            group: ["FIESTAR"],
             gen: ["gen2"]
         }
     },
@@ -915,10 +915,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Miss A Jia",
+        name: "miss A Jia",
         img: "KhxYm7P.jpeg",
         opts: {
-            group: ["Miss A"],
+            group: ["miss A"],
             gen: ["gen2"]
         }
     },
@@ -971,18 +971,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "T-ara Jiyeon",
+        name: "T-ARA Jiyeon",
         img: "9H0osRx.jpeg",
         opts: {
-            group: ["T-ara"],
+            group: ["T-ARA"],
             gen: ["gen2"]
         }
     },
     {
-        name: "Kara Jiyoung Kang",
+        name: "KARA Jiyoung Kang",
         img: "T4A7iLl.jpeg",
         opts: {
-            group: ["Kara"],
+            group: ["KARA"],
             gen: ["gen2"]
         }
     },
@@ -1139,18 +1139,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Hellovenus Lime",
+        name: "Hello Venus Lime",
         img: "nWSoes9.png",
         opts: {
-            group: ["Hellovenus"],
+            group: ["Hello Venus"],
             gen: ["gen2"]
         }
     },
     {
-        name: "Fiestar Linzy",
+        name: "FIESTAR Linzy",
         img: "IpTqES7.png",
         opts: {
-            group: ["Fiestar"],
+            group: ["FIESTAR"],
             gen: ["gen2"]
         }
     },
@@ -1171,10 +1171,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Miss A Min",
+        name: "miss A Min",
         img: "0KDJOOy.jpeg",
         opts: {
-            group: ["Miss A"],
+            group: ["miss A"],
             gen: ["gen2"]
         }
     },
@@ -1203,10 +1203,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Brave Girls Minyoung",
+        name: "BBGIRLS Minyoung",
         img: "8PI1iUL.jpeg",
         opts: {
-            group: ["Brave Girls"],
+            group: ["BBGIRLS"],
             gen: ["gen2"]
         }
     },
@@ -1267,10 +1267,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Hellovenus Nara",
+        name: "Hello Venus Nara",
         img: "VAkpDrm.png",
         opts: {
-            group: ["Hellovenus"],
+            group: ["Hello Venus"],
             gen: ["gen2"]
         }
     },
@@ -1291,10 +1291,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Kara Nicole Jung",
+        name: "KARA Nicole Jung",
         img: "6NVZxwf.jpeg",
         opts: {
-            group: ["Kara"],
+            group: ["KARA"],
             gen: ["gen2"]
         }
     },
@@ -1315,18 +1315,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Kara Park Gyuri",
+        name: "KARA Park Gyuri",
         img: "6WKYTcA.jpeg",
         opts: {
-            group: ["Kara"],
+            group: ["KARA"],
             gen: ["gen2"]
         }
     },
     {
-        name: "T-ara Qri",
+        name: "T-ARA Qri",
         img: "rpAmbgO.jpeg",
         opts: {
-            group: ["T-ara"],
+            group: ["T-ARA"],
             gen: ["gen2"]
         }
     },
@@ -1363,10 +1363,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Brave Girls Seoah",
+        name: "BBGIRLS Seoah",
         img: "su2U2BK.jpeg",
         opts: {
-            group: ["Brave Girls"],
+            group: ["BBGIRLS"],
             gen: ["gen2"]
         }
     },
@@ -1387,10 +1387,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Hellovenus Seoyoung",
+        name: "Hello Venus Seoyoung",
         img: "4rugp2j.png",
         opts: {
-            group: ["Hellovenus"],
+            group: ["Hello Venus"],
             gen: ["gen2"]
         }
     },
@@ -1411,10 +1411,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Kara Seungyeon",
+        name: "KARA Seungyeon",
         img: "5RugHBn.jpeg",
         opts: {
-            group: ["Kara"],
+            group: ["KARA"],
             gen: ["gen2"]
         }
     },
@@ -1467,18 +1467,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "T-ara Soyeon",
+        name: "T-ARA Soyeon",
         img: "wrjNMVE.jpeg",
         opts: {
-            group: ["T-ara"],
+            group: ["T-ARA"],
             gen: ["gen2"]
         }
     },
     {
-        name: "Sistar Soyou",
+        name: "SISTAR Soyou",
         img: "FiTg7lO.jpeg",
         opts: {
-            group: ["Sistar"],
+            group: ["SISTAR"],
             gen: ["gen2"]
         }
     },
@@ -1547,10 +1547,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Miss A Suzy",
+        name: "miss A Suzy",
         img: "my0Ea9g.jpeg",
         opts: {
-            group: ["Miss A"],
+            group: ["miss A"],
             gen: ["gen2"]
         }
     },
@@ -1619,50 +1619,50 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Brave Girls Yejin",
+        name: "BBGIRLS Yejin",
         img: "wyg2jYi.png",
         opts: {
-            group: ["Brave Girls"],
+            group: ["BBGIRLS"],
             gen: ["gen2"]
         }
     },
     {
-        name: "Fiestar Yel",
+        name: "FIESTAR Yel",
         img: "1VZcfM9.jpeg",
         opts: {
-            group: ["Fiestar"],
+            group: ["FIESTAR"],
             gen: ["gen2"]
         }
     },
     {
-        name: "Hellovenus Yeoreum",
+        name: "Hello Venus Yeoreum",
         img: "sg7G4IP.jpeg",
         opts: {
-            group: ["Hellovenus"],
+            group: ["Hello Venus"],
             gen: ["gen2"]
         }
     },
     {
-        name: "Fiestar Yezi",
+        name: "FIESTAR Yezi",
         img: "7CKCWi4.jpeg",
         opts: {
-            group: ["Fiestar"],
+            group: ["FIESTAR"],
             gen: ["gen2"]
         }
     },
     {
-        name: "Hellovenus Yoo Ara",
+        name: "Hello Venus Yoo Ara",
         img: "WCtTjHt.png",
         opts: {
-            group: ["Hellovenus"],
+            group: ["Hello Venus"],
             gen: ["gen2"]
         }
     },
     {
-        name: "Brave Girls Yoojin",
+        name: "BBGIRLS Yoojin",
         img: "xJKHQAo.png",
         opts: {
-            group: ["Brave Girls"],
+            group: ["BBGIRLS"],
             gen: ["gen2"]
         }
     },
@@ -1691,18 +1691,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Hellovenus Yooyoung",
+        name: "Hello Venus Yooyoung",
         img: "MNyU2bO.jpeg",
         opts: {
-            group: ["Hellovenus"],
+            group: ["Hello Venus"],
             gen: ["gen2"]
         }
     },
     {
-        name: "Kara Youngji",
+        name: "KARA Youngji",
         img: "gqoUs82.jpeg",
         opts: {
-            group: ["Kara"],
+            group: ["KARA"],
             gen: ["gen2"]
         }
     },
@@ -1731,10 +1731,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Brave Girls Yuna",
+        name: "BBGIRLS Yuna",
         img: "iFIDW5T.jpeg",
         opts: {
-            group: ["Brave Girls"],
+            group: ["BBGIRLS"],
             gen: ["gen2"]
         }
     },
@@ -1755,26 +1755,26 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Momoland Ahin",
+        name: "MOMOLAND Ahin",
         img: "L6INjvt.jpeg",
         opts: {
-            group: ["Momoland"],
+            group: ["MOMOLAND"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Oh My Girl Arin",
+        name: "OH MY GIRL Arin",
         img: "llxjzqr.jpeg",
         opts: {
-            group: ["Oh My Girl"],
+            group: ["OH MY GIRL"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Ladies' code Ashley",
+        name: "LADIES' CODE Ashley",
         img: "aYxcakV.jpeg",
         opts: {
-            group: ["Ladies' code"],
+            group: ["LADIES' CODE"],
             gen: ["gen3"]
         }
     },
@@ -1803,10 +1803,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Alice Chaejeong",
+        name: "ALICE Chaejeong",
         img: "J7WKqXB.jpeg",
         opts: {
-            group: ["Alice"],
+            group: ["ALICE"],
             gen: ["gen3"]
         }
     },
@@ -1819,26 +1819,26 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "April Chaewon",
+        name: "APRIL Chaewon",
         img: "lGTX0QM.jpeg",
         opts: {
-            group: ["April"],
+            group: ["APRIL"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Dia Chaeyeon",
+        name: "DIA Chaeyeon",
         img: "ZgJblRe.jpeg",
         opts: {
-            group: ["Dia"],
+            group: ["DIA"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Twice Chaeyoung",
+        name: "TWICE Chaeyoung",
         img: "6KIEi0E.jpeg",
         opts: {
-            group: ["Twice"],
+            group: ["TWICE"],
             gen: ["gen3"]
         }
     },
@@ -1851,34 +1851,34 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Sonamoo D.ana",
+        name: "SONAMOO D.ana",
         img: "7pmUTmb.jpeg",
         opts: {
-            group: ["Sonamoo"],
+            group: ["SONAMOO"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Twice Dahyun",
+        name: "TWICE Dahyun",
         img: "IbRHkmk.jpeg",
         opts: {
-            group: ["Twice"],
+            group: ["TWICE"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Momoland Daisy",
+        name: "MOMOLAND Daisy",
         img: "62gIJxX.jpeg",
         opts: {
-            group: ["Momoland"],
+            group: ["MOMOLAND"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Dreamcatcher Dami",
+        name: "DREAMCATCHER Dami",
         img: "HwTpaoY.jpeg",
         opts: {
-            group: ["Dreamcatcher"],
+            group: ["DREAMCATCHER"],
             gen: ["gen3"]
         }
     },
@@ -1899,10 +1899,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Alice Do-A",
+        name: "ALICE Do-A",
         img: "zVRRLbI.jpeg",
         opts: {
-            group: ["Alice"],
+            group: ["ALICE"],
             gen: ["gen3"]
         }
     },
@@ -1915,10 +1915,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Alice Ej",
+        name: "ALICE Ej",
         img: "a24mRTW.jpeg",
         opts: {
-            group: ["Alice"],
+            group: ["ALICE"],
             gen: ["gen3"]
         }
     },
@@ -1939,10 +1939,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Ladies' code EunB",
+        name: "LADIES' CODE EunB",
         img: "LCw9ump.jpeg",
         opts: {
-            group: ["Ladies' code"],
+            group: ["LADIES' CODE"],
             gen: ["gen3"]
         }
     },
@@ -1955,26 +1955,26 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Dia Eunchae",
+        name: "DIA Eunchae",
         img: "1KOuyih.jpeg",
         opts: {
-            group: ["Dia"],
+            group: ["DIA"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Dia Eunice",
+        name: "DIA Eunice",
         img: "4C3jEjt.jpeg",
         opts: {
-            group: ["Dia"],
+            group: ["DIA"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Dia Eunjin",
+        name: "DIA Eunjin",
         img: "L1N6Ddx.png",
         opts: {
-            group: ["Dia"],
+            group: ["DIA"],
             gen: ["gen3"]
         }
     },
@@ -1987,10 +1987,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Pristin Eunwoo",
+        name: "PRISTIN Eunwoo",
         img: "bqdFPUB.png",
         opts: {
-            group: ["Pristin"],
+            group: ["PRISTIN"],
             gen: ["gen3"]
         }
     },
@@ -2003,10 +2003,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Dreamcatcher Gahyeon",
+        name: "DREAMCATCHER Gahyeon",
         img: "gTqJl3m.jpeg",
         opts: {
-            group: ["Dreamcatcher"],
+            group: ["DREAMCATCHER"],
             gen: ["gen3"]
         }
     },
@@ -2019,42 +2019,42 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Pristin Gyeongwon",
+        name: "PRISTIN Gyeongwon",
         img: "nXrXa18.png",
         opts: {
-            group: ["Pristin"],
+            group: ["PRISTIN"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Gugudan Haebin",
+        name: "gugudan Haebin",
         img: "AWJi6yX.png",
         opts: {
-            group: ["Gugudan"],
+            group: ["gugudan"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Laboum Haein",
+        name: "LABOUM Haein",
         img: "WsWVkNQ.png",
         opts: {
-            group: ["Laboum"],
+            group: ["LABOUM"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Gugudan Hana",
+        name: "gugudan Hana",
         img: "vWD6w0L.png",
         opts: {
-            group: ["Gugudan"],
+            group: ["gugudan"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Dreamcatcher Handong",
+        name: "DREAMCATCHER Handong",
         img: "Yk5HAFh.jpeg",
         opts: {
-            group: ["Dreamcatcher"],
+            group: ["DREAMCATCHER"],
             gen: ["gen3"]
         }
     },
@@ -2067,50 +2067,50 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Sonamoo Hezz",
+        name: "SONAMOO Hezz",
         img: "UkRdSmt.jpeg",
         opts: {
-            group: ["Sonamoo"],
+            group: ["SONAMOO"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Dia Huihyeon",
+        name: "DIA Huihyeon",
         img: "MBXvrak.jpeg",
         opts: {
-            group: ["Dia"],
+            group: ["DIA"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Mamamoo Hwasa",
+        name: "MAMAMOO Hwasa",
         img: "ygsowHa.jpeg",
         opts: {
-            group: ["Mamamoo"],
+            group: ["MAMAMOO"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Momoland Hyebin",
+        name: "MOMOLAND Hyebin",
         img: "s6Rkpo2.jpeg",
         opts: {
-            group: ["Momoland"],
+            group: ["MOMOLAND"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Gugudan Hyeyeon",
+        name: "gugudan Hyeyeon",
         img: "vmszKBK.png",
         opts: {
-            group: ["Gugudan"],
+            group: ["gugudan"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Oh My Girl Hyojung",
+        name: "OH MY GIRL Hyojung",
         img: "bLDLeLv.jpeg",
         opts: {
-            group: ["Oh My Girl"],
+            group: ["OH MY GIRL"],
             gen: ["gen3"]
         }
     },
@@ -2131,10 +2131,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "April Hyunjoo",
+        name: "APRIL Hyunjoo",
         img: "CLyOCbx.png",
         opts: {
-            group: ["April"],
+            group: ["APRIL"],
             gen: ["gen3"]
         }
     },
@@ -2147,34 +2147,34 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Momoland Jane",
+        name: "MOMOLAND Jane",
         img: "2huTbzn.jpeg",
         opts: {
-            group: ["Momoland"],
+            group: ["MOMOLAND"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Blackpink Jennie",
+        name: "BLACKPINK Jennie",
         img: "14wpqY8.jpeg",
         opts: {
-            group: ["Blackpink"], Clash: ["Idol Clash S3"],
+            group: ["BLACKPINK"], Clash: ["Idol Clash S3"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Dia Jenny",
+        name: "DIA Jenny",
         img: "6uCDTP1.jpeg",
         opts: {
-            group: ["Dia"],
+            group: ["DIA"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Twice Jeongyeon",
+        name: "TWICE Jeongyeon",
         img: "WU9Pj0E.jpeg",
         opts: {
-            group: ["Twice"],
+            group: ["TWICE"],
             gen: ["gen3"]
         }
     },
@@ -2187,66 +2187,66 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Dreamcatcher JiU",
+        name: "DREAMCATCHER JiU",
         img: "o3SdDEN.jpeg",
         opts: {
-            group: ["Dreamcatcher"],
+            group: ["DREAMCATCHER"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Oh My Girl Jiho",
+        name: "OH MY GIRL Jiho",
         img: "0vVJewB.png",
         opts: {
-            group: ["Oh My Girl"],
+            group: ["OH MY GIRL"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Twice Jihyo",
+        name: "TWICE Jihyo",
         img: "UtwdO1X.jpeg",
         opts: {
-            group: ["Twice"],
+            group: ["TWICE"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Lovelyz Jin",
+        name: "LOVELYZ Jin",
         img: "MjnB8Ot.jpeg",
         opts: {
-            group: ["Lovelyz"],
+            group: ["LOVELYZ"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Oh My Girl JinE",
+        name: "OH MY GIRL JinE",
         img: "TSdPLQU.jpeg",
         opts: {
-            group: ["Oh My Girl"],
+            group: ["OH MY GIRL"],
             gen: ["gen3"]
         }
     },
     {
-        name: "April Jinsol",
+        name: "APRIL Jinsol",
         img: "rGtmHUL.jpeg",
         opts: {
-            group: ["April"],
+            group: ["APRIL"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Laboum Jinye",
+        name: "LABOUM Jinye",
         img: "Oxl5XAy.jpeg",
         opts: {
-            group: ["Laboum"],
+            group: ["LABOUM"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Blackpink Jisoo",
+        name: "BLACKPINK Jisoo",
         img: "xjzyMay.jpeg",
         opts: {
-            group: ["Blackpink"], Clash: ["Idol Clash S3"],
+            group: ["BLACKPINK"], Clash: ["Idol Clash S3"],
             gen: ["gen3"]
         }
     },
@@ -2259,10 +2259,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Lovelyz Jisoo",
+        name: "LOVELYZ Jisoo",
         img: "TaZnCBd.png",
         opts: {
-            group: ["Lovelyz"],
+            group: ["LOVELYZ"],
             gen: ["gen3"]
         }
     },
@@ -2275,10 +2275,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Momoland JooE",
+        name: "MOMOLAND JooE",
         img: "Kp4AQ0Y.jpeg",
         opts: {
-            group: ["Momoland"],
+            group: ["MOMOLAND"],
             gen: ["gen3"]
         }
     },
@@ -2291,50 +2291,50 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Dia Jueun",
+        name: "DIA Jueun",
         img: "ncYfGGU.jpeg",
         opts: {
-            group: ["Dia"],
+            group: ["DIA"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Alice Karin",
+        name: "ALICE Karin",
         img: "6wA6ahq.jpeg",
         opts: {
-            group: ["Alice"],
+            group: ["ALICE"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Lovelyz Kei",
+        name: "LOVELYZ Kei",
         img: "T9Fjynf.png",
         opts: {
-            group: ["Lovelyz"],
+            group: ["LOVELYZ"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Sonamoo Kim Dohee",
+        name: "SONAMOO Kim Dohee",
         img: "8BxW2I1.jpeg",
         opts: {
-            group: ["Sonamoo"],
+            group: ["SONAMOO"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Pristin Kyla",
+        name: "PRISTIN Kyla",
         img: "A00uB8p.jpeg",
         opts: {
-            group: ["Pristin"],
+            group: ["PRISTIN"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Pristin Kyulkyung",
+        name: "PRISTIN Kyulkyung",
         img: "H4Hz5VK.png",
         opts: {
-            group: ["Pristin"],
+            group: ["PRISTIN"],
             gen: ["gen3"]
         }
     },
@@ -2355,18 +2355,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Lovelyz Lee Sujeong",
+        name: "LOVELYZ Lee Sujeong",
         img: "Euc9c5T.jpeg",
         opts: {
-            group: ["Lovelyz"],
+            group: ["LOVELYZ"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Blackpink Lisa",
+        name: "BLACKPINK Lisa",
         img: "QBVcJiB.jpeg",
         opts: {
-            group: ["Blackpink"], Clash: ["Idol Clash S3"],
+            group: ["BLACKPINK"], Clash: ["Idol Clash S3"],
             gen: ["gen3"]
         }
     },
@@ -2403,50 +2403,50 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Lovelyz Mijoo",
+        name: "LOVELYZ Mijoo",
         img: "GO76GvH.jpeg",
         opts: {
-            group: ["Lovelyz"],
+            group: ["LOVELYZ"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Gugudan Mimi",
+        name: "gugudan Mimi",
         img: "n4nSp5k.png",
         opts: {
-            group: ["Gugudan"],
+            group: ["gugudan"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Oh My Girl Mimi",
+        name: "OH MY GIRL Mimi",
         img: "GNk3VxJ.jpeg",
         opts: {
-            group: ["Oh My Girl"],
+            group: ["OH MY GIRL"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Gugudan Mina",
+        name: "gugudan Mina",
         img: "7o0H9Nr.jpeg",
         opts: {
-            group: ["Gugudan"],
+            group: ["gugudan"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Twice Mina",
+        name: "TWICE Mina",
         img: "tnQ6mmT.jpeg",
         opts: {
-            group: ["Twice"],
+            group: ["TWICE"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Sonamoo Minjae",
+        name: "SONAMOO Minjae",
         img: "gfHBHrx.jpeg",
         opts: {
-            group: ["Sonamoo"],
+            group: ["SONAMOO"],
             gen: ["gen3"]
         }
     },
@@ -2459,90 +2459,90 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Pristin Minkyeung",
+        name: "PRISTIN Minkyeung",
         img: "y3wT8vP.jpeg",
         opts: {
-            group: ["Pristin"],
+            group: ["PRISTIN"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Twice Momo",
+        name: "TWICE Momo",
         img: "WJ9OeLR.jpeg",
         opts: {
-            group: ["Twice"],
+            group: ["TWICE"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Mamamoo Moonbyul",
+        name: "MAMAMOO Moonbyul",
         img: "fUTjQlS.jpeg",
         opts: {
-            group: ["Mamamoo"],
+            group: ["MAMAMOO"],
             gen: ["gen3"]
         }
     },
     {
-        name: "April Naeun",
+        name: "APRIL Naeun",
         img: "Jix84A3.png",
         opts: {
-            group: ["April"],
+            group: ["APRIL"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Sonamoo Nahyun",
+        name: "SONAMOO Nahyun",
         img: "b9hrARV.png",
         opts: {
-            group: ["Sonamoo"],
+            group: ["SONAMOO"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Momoland Nancy",
+        name: "MOMOLAND Nancy",
         img: "kAbMud7.jpeg",
         opts: {
-            group: ["Momoland"],
+            group: ["MOMOLAND"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Twice Nayeon",
+        name: "TWICE Nayeon",
         img: "EQ91Bok.jpeg",
         opts: {
-            group: ["Twice"],
+            group: ["TWICE"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Gugudan Nayoung",
+        name: "gugudan Nayoung",
         img: "VfTZREV.png",
         opts: {
-            group: ["Gugudan"],
+            group: ["gugudan"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Pristin Nayoung",
+        name: "PRISTIN Nayoung",
         img: "f3zmbJR.jpeg",
         opts: {
-            group: ["Pristin"],
+            group: ["PRISTIN"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Momoland Nayun",
+        name: "MOMOLAND Nayun",
         img: "pMatxza.jpeg",
         opts: {
-            group: ["Momoland"],
+            group: ["MOMOLAND"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Sonamoo New Sun",
+        name: "SONAMOO New Sun",
         img: "QbSOXTl.jpeg",
         opts: {
-            group: ["Sonamoo"],
+            group: ["SONAMOO"],
             gen: ["gen3"]
         }
     },
@@ -2563,18 +2563,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "April Rachel",
+        name: "APRIL Rachel",
         img: "xhHVsT7.jpeg",
         opts: {
-            group: ["April"],
+            group: ["APRIL"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Ladies' code RiSe",
+        name: "LADIES' CODE RiSe",
         img: "hskde0N.jpeg",
         opts: {
-            group: ["Ladies' code"],
+            group: ["LADIES' CODE"],
             gen: ["gen3"]
         }
     },
@@ -2587,10 +2587,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Blackpink Rose",
+        name: "BLACKPINK Rose",
         img: "oQqOXI1.jpeg",
         opts: {
-            group: ["Blackpink"], Clash: ["Idol Clash S3"],
+            group: ["BLACKPINK"], Clash: ["Idol Clash S3"],
             gen: ["gen3"]
         }
     },
@@ -2603,26 +2603,26 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Lovelyz Ryu Sujeong",
+        name: "LOVELYZ Ryu Sujeong",
         img: "Ivby2Av.png",
         opts: {
-            group: ["Lovelyz"],
+            group: ["LOVELYZ"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Gugudan Sally",
+        name: "gugudan Sally",
         img: "RN7np0k.jpeg",
         opts: {
-            group: ["Gugudan"],
+            group: ["gugudan"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Twice Sana",
+        name: "TWICE Sana",
         img: "rGuSOCT.jpeg",
         opts: {
-            group: ["Twice"],
+            group: ["TWICE"],
             gen: ["gen3"]
         }
     },
@@ -2651,10 +2651,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Oh My Girl Seunghee",
+        name: "OH MY GIRL Seunghee",
         img: "Q50ROdm.jpeg",
         opts: {
-            group: ["Oh My Girl"],
+            group: ["OH MY GIRL"],
             gen: ["gen3"]
         }
     },
@@ -2667,18 +2667,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Dreamcatcher Siyeon",
+        name: "DREAMCATCHER Siyeon",
         img: "Ftc2Ylh.jpeg",
         opts: {
-            group: ["Dreamcatcher"],
+            group: ["DREAMCATCHER"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Alice Sohee",
+        name: "ALICE Sohee",
         img: "QhX6Y3x.jpeg",
         opts: {
-            group: ["Alice"],
+            group: ["ALICE"],
             gen: ["gen3"]
         }
     },
@@ -2691,26 +2691,26 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Ladies' code Sojung",
+        name: "LADIES' CODE Sojung",
         img: "q38dheA.jpeg",
         opts: {
-            group: ["Ladies' code"],
+            group: ["LADIES' CODE"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Mamamoo Solar",
+        name: "MAMAMOO Solar",
         img: "U8TvcPF.jpeg",
         opts: {
-            group: ["Mamamoo"],
+            group: ["MAMAMOO"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Laboum Solbin",
+        name: "LABOUM Solbin",
         img: "qwnO8JO.jpeg",
         opts: {
-            group: ["Laboum"],
+            group: ["LABOUM"],
             gen: ["gen3"]
         }
     },
@@ -2723,10 +2723,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Dia Somyi",
+        name: "DIA Somyi",
         img: "JuL4LPs.jpeg",
         opts: {
-            group: ["Dia"],
+            group: ["DIA"],
             gen: ["gen3"]
         }
     },
@@ -2747,50 +2747,50 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "GFriend Sowon",
+        name: "GFRIEND Sowon",
         img: "oDV5H6X.jpeg",
         opts: {
-            group: ["GFriend"],
+            group: ["GFRIEND"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Gugudan Soyee",
+        name: "gugudan Soyee",
         img: "DGoidGt.jpeg",
         opts: {
-            group: ["Gugudan"],
+            group: ["gugudan"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Laboum Soyeon",
+        name: "LABOUM Soyeon",
         img: "Om7AJq7.jpeg",
         opts: {
-            group: ["Laboum"],
+            group: ["LABOUM"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Dreamcatcher SuA",
+        name: "DREAMCATCHER SuA",
         img: "0fHrFgh.jpeg",
         opts: {
-            group: ["Dreamcatcher"],
+            group: ["DREAMCATCHER"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Sonamoo Sumin",
+        name: "SONAMOO Sumin",
         img: "a74zhuJ.jpeg",
         opts: {
-            group: ["Sonamoo"],
+            group: ["SONAMOO"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Pristin Sungyeon",
+        name: "PRISTIN Sungyeon",
         img: "E46v8Xi.jpeg",
         opts: {
-            group: ["Pristin"],
+            group: ["PRISTIN"],
             gen: ["gen3"]
         }
     },
@@ -2811,18 +2811,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Momoland Taeha",
+        name: "MOMOLAND Taeha",
         img: "Wte9KmK.png",
         opts: {
-            group: ["Momoland"],
+            group: ["MOMOLAND"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Twice Tzuyu",
+        name: "TWICE Tzuyu",
         img: "6LkJlbB.jpeg",
         opts: {
-            group: ["Twice"],
+            group: ["TWICE"],
             gen: ["gen3"]
         }
     },
@@ -2835,18 +2835,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Mamamoo WheeIn",
+        name: "MAMAMOO WheeIn",
         img: "c3mIzuY.jpeg",
         opts: {
-            group: ["Mamamoo"],
+            group: ["MAMAMOO"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Pristin Xiyeon",
+        name: "PRISTIN Xiyeon",
         img: "PXSay1q.jpeg",
         opts: {
-            group: ["Pristin"],
+            group: ["PRISTIN"],
             gen: ["gen3"]
         }
     },
@@ -2859,18 +2859,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Pristin Yaebin",
+        name: "PRISTIN Yaebin",
         img: "SILiqqU.jpeg",
         opts: {
-            group: ["Pristin"],
+            group: ["PRISTIN"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Dia Yebin",
+        name: "DIA Yebin",
         img: "TSGPRTC.jpeg",
         opts: {
-            group: ["Dia"],
+            group: ["DIA"],
             gen: ["gen3"]
         }
     },
@@ -2883,34 +2883,34 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Pristin Yehana",
+        name: "PRISTIN Yehana",
         img: "BNW3taY.jpeg",
         opts: {
-            group: ["Pristin"],
+            group: ["PRISTIN"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Lovelyz Yein",
+        name: "LOVELYZ Yein",
         img: "0eNJcPU.jpeg",
         opts: {
-            group: ["Lovelyz"],
+            group: ["LOVELYZ"],
             gen: ["gen3"]
         }
     },
     {
-        name: "April Yena",
+        name: "APRIL Yena",
         img: "m5fVbg3.png",
         opts: {
-            group: ["April"],
+            group: ["APRIL"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Alice Yeonjae",
+        name: "ALICE Yeonjae",
         img: "10ZPchD.jpeg",
         opts: {
-            group: ["Alice"],
+            group: ["ALICE"],
             gen: ["gen3"]
         }
     },
@@ -2923,10 +2923,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Momoland Yeonwoo",
+        name: "MOMOLAND Yeonwoo",
         img: "VPmJbS2.jpg",
         opts: {
-            group: ["Momoland"],
+            group: ["MOMOLAND"],
             gen: ["gen3"]
         }
     },
@@ -2955,26 +2955,26 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Lovelyz Yoo Jiae",
+        name: "LOVELYZ Yoo Jiae",
         img: "xQrdeua.jpeg",
         opts: {
-            group: ["Lovelyz"],
+            group: ["LOVELYZ"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Oh My Girl Yooa",
+        name: "OH MY GIRL Yooa",
         img: "1o1qhJJ.jpeg",
         opts: {
-            group: ["Oh My Girl"],
+            group: ["OH MY GIRL"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Dreamcatcher Yoohyeon",
+        name: "DREAMCATCHER Yoohyeon",
         img: "Ri0we2L.jpeg",
         opts: {
-            group: ["Dreamcatcher"],
+            group: ["DREAMCATCHER"],
             gen: ["gen3"]
         }
     },
@@ -2987,18 +2987,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Oh My Girl Yubin",
+        name: "OH MY GIRL Yubin",
         img: "CEsnUUc.jpeg",
         opts: {
-            group: ["Oh My Girl"],
+            group: ["OH MY GIRL"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Laboum Yujeong",
+        name: "LABOUM Yujeong",
         img: "1iaSdoc.jpeg",
         opts: {
-            group: ["Laboum"],
+            group: ["LABOUM"],
             gen: ["gen3"]
         }
     },
@@ -3011,26 +3011,26 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Alice Yukyung",
+        name: "ALICE Yukyung",
         img: "iVNPZCO.jpeg",
         opts: {
-            group: ["Alice"],
+            group: ["ALICE"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Laboum Yulhee",
+        name: "LABOUM Yulhee",
         img: "inQag92.jpeg",
         opts: {
-            group: ["Laboum"],
+            group: ["LABOUM"],
             gen: ["gen3"]
         }
     },
     {
-        name: "Ladies' code Zuny",
+        name: "LADIES' CODE Zuny",
         img: "PpoMDel.png",
         opts: {
-            group: ["Ladies' code"],
+            group: ["LADIES' CODE"],
             gen: ["gen3"]
         }
     },
@@ -3059,10 +3059,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Everglow Aisha",
+        name: "EVERGLOW Aisha",
         img: "ru3vi04.jpeg",
         opts: {
-            group: ["Everglow"],
+            group: ["EVERGLOW"],
             gen: ["gen4"]
         }
     },
@@ -3099,18 +3099,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nature Aurora",
+        name: "NATURE Aurora",
         img: "yDQiKNB.jpeg",
         opts: {
-            group: ["Nature"],
+            group: ["NATURE"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Nmixx Bae",
+        name: "NMIXX Bae",
         img: "Pc3JNLz.jpeg",
         opts: {
-            group: ["Nmixx"], Clash: ["Idol Clash S2"],
+            group: ["NMIXX"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -3179,10 +3179,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nature Chaebin",
+        name: "NATURE Chaebin",
         img: "sSUNygK.png",
         opts: {
-            group: ["Nature"],
+            group: ["NATURE"],
             gen: ["gen4"]
         }
     },
@@ -3195,10 +3195,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Kep1er Chaehyun",
+        name: "KEP1ER Chaehyun",
         img: "lZfiqFQ.jpeg",
         opts: {
-            group: ["Kep1er"], Clash: ["Idol Clash S3"],
+            group: ["KEP1ER"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -3211,10 +3211,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ICHILLIN Chaerin",
+        name: "ICHILLIN' Chaerin",
         img: "PmTAwAQ.jpeg",
         opts: {
-            group: ["ICHILLIN"],
+            group: ["ICHILLIN'"],
             gen: ["gen4"]
         }
     },
@@ -3227,10 +3227,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Cignature Chaesol",
+        name: "cignature Chaesol",
         img: "yslGnxy.jpeg",
         opts: {
-            group: ["Cignature"],
+            group: ["cignature"],
             gen: ["gen4"]
         }
     },
@@ -3259,10 +3259,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Fromis 9 Chaeyoung",
+        name: "fromis_9 Chaeyoung",
         img: "JThaziU.jpeg",
         opts: {
-            group: ["Fromis 9"], Clash: ["Idol Clash S3"],
+            group: ["fromis_9"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -3283,10 +3283,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Cignature Chloe",
+        name: "cignature Chloe",
         img: "FUvn8H4.jpeg",
         opts: {
-            group: ["Cignature"],
+            group: ["cignature"],
             gen: ["gen4"]
         }
     },
@@ -3307,18 +3307,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ICHILLIN Chowon",
+        name: "ICHILLIN' Chowon",
         img: "VWoYc1q.jpeg",
         opts: {
-            group: ["ICHILLIN"],
+            group: ["ICHILLIN'"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Lightsum Chowon",
+        name: "LIGHTSUM Chowon",
         img: "3S0uMGY.jpeg",
         opts: {
-            group: ["Lightsum"], Clash: ["Idol Clash S3"],
+            group: ["LIGHTSUM"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -3379,10 +3379,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Pixy Dajeong",
+        name: "PIXY Dajeong",
         img: "8wYPqBh.png",
         opts: {
-            group: ["Pixy"], Clash: ["Idol Clash Cat Edition"],
+            group: ["PIXY"], Clash: ["Idol Clash Cat Edition"],
             gen: ["gen4"]
         }
     },
@@ -3395,10 +3395,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Kep1er Dayeon",
+        name: "KEP1ER Dayeon",
         img: "xQpxWvE.jpeg",
         opts: {
-            group: ["Kep1er"], Clash: ["Idol Clash S3"],
+            group: ["KEP1ER"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -3411,34 +3411,34 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Secret Number Denise",
+        name: "SECRET NUMBER Denise",
         img: "KfSxnem.jpeg",
         opts: {
-            group: ["Secret Number"],
+            group: ["SECRET NUMBER"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Pixy Dia",
+        name: "PIXY Dia",
         img: "dT0kKdA.jpeg",
         opts: {
-            group: ["Pixy"],
+            group: ["PIXY"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Secret Number Dita",
+        name: "SECRET NUMBER Dita",
         img: "qGjdpqr.png",
         opts: {
-            group: ["Secret Number"],
+            group: ["SECRET NUMBER"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Cignature Dohee",
+        name: "cignature Dohee",
         img: "wSQvUzn.jpeg",
         opts: {
-            group: ["Cignature"],
+            group: ["cignature"],
             gen: ["gen4"]
         }
     },
@@ -3451,10 +3451,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Purple Kiss Dosie",
+        name: "PURPLE KISS Dosie",
         img: "5iATMcx.jpeg",
         opts: {
-            group: ["Purple Kiss"],
+            group: ["PURPLE KISS"],
             gen: ["gen4"]
         }
     },
@@ -3467,10 +3467,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ICHILLIN E.ji",
+        name: "ICHILLIN' E.ji",
         img: "wbyQiSl.jpeg",
         opts: {
-            group: ["ICHILLIN"],
+            group: ["ICHILLIN'"],
             gen: ["gen4"]
         }
     },
@@ -3483,10 +3483,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Everglow E:U",
+        name: "EVERGLOW E:U",
         img: "3ibq24p.jpeg",
         opts: {
-            group: ["Everglow"],
+            group: ["EVERGLOW"],
             gen: ["gen4"]
         }
     },
@@ -3523,10 +3523,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Viviz Eunha",
+        name: "VIVIZ Eunha",
         img: "QIfDY8O.jpeg",
         opts: {
-            group: ["Viviz"], Clash: ["Idol Clash S3"],
+            group: ["VIVIZ"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -3547,10 +3547,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nature Gaga",
+        name: "NATURE Gaga",
         img: "pO2yzmX.png",
         opts: {
-            group: ["Nature"],
+            group: ["NATURE"],
             gen: ["gen4"]
         }
     },
@@ -3563,34 +3563,34 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Aespa Giselle",
+        name: "aespa Giselle",
         img: "ug7HPDB.jpeg",
         opts: {
-            group: ["Aespa"], Clash: ["Idol Clash S2"],
+            group: ["aespa"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Purple Kiss Goeun",
+        name: "PURPLE KISS Goeun",
         img: "FunyBt8.jpeg",
         opts: {
-            group: ["Purple Kiss"],
+            group: ["PURPLE KISS"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Loossemble Gowon",
+        name: "LOOSSEMBLE Gowon",
         img: "2yWdo3m.jpeg",
         opts: {
-            group: ["Loossemble"],
+            group: ["LOOSSEMBLE"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Fromis 9 Gyuri",
+        name: "fromis_9 Gyuri",
         img: "CmU2rZ4.jpeg",
         opts: {
-            group: ["Fromis 9"],
+            group: ["fromis_9"],
             gen: ["gen4"]
         }
     },
@@ -3619,10 +3619,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nmixx Haewon",
+        name: "NMIXX Haewon",
         img: "cvFIfj1.jpeg",
         opts: {
-            group: ["Nmixx"], Clash: ["Idol Clash S2"],
+            group: ["NMIXX"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -3699,10 +3699,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nature Haru",
+        name: "NATURE Haru",
         img: "S4zYLD6.jpeg",
         opts: {
-            group: ["Nature"],
+            group: ["NATURE"],
             gen: ["gen4"]
         }
     },
@@ -3731,10 +3731,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Fromis 9 Hayoung",
+        name: "fromis_9 Hayoung",
         img: "JXomAvu.jpeg",
         opts: {
-            group: ["Fromis 9"], Clash: ["Idol Clash S3"],
+            group: ["fromis_9"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -3763,26 +3763,26 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Kep1er Hikaru",
+        name: "KEP1ER Hikaru",
         img: "UIdT1MF.jpeg",
         opts: {
-            group: ["Kep1er"], Clash: ["Idol Clash S3"],
+            group: ["KEP1ER"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Lightsum Hina",
+        name: "LIGHTSUM Hina",
         img: "rn6J4Nh.jpeg",
         opts: {
-            group: ["Lightsum"], Clash: ["Idol Clash S3"],
+            group: ["LIGHTSUM"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Kep1er Huening Bahiyyih",
+        name: "KEP1ER Huening Bahiyyih",
         img: "91vLr26.jpeg",
         opts: {
-            group: ["Kep1er"], Clash: ["Idol Clash S3"],
+            group: ["KEP1ER"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -3803,10 +3803,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Craxy Hyejin",
+        name: "CRAXY Hyejin",
         img: "0LwnBfv.jpeg",
         opts: {
-            group: ["Craxy"],
+            group: ["CRAXY"],
             gen: ["gen4"]
         }
     },
@@ -3819,10 +3819,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Loossemble Hyeju",
+        name: "LOOSSEMBLE Hyeju",
         img: "xK2dn8s.jpeg",
         opts: {
-            group: ["Loossemble"],
+            group: ["LOOSSEMBLE"],
             gen: ["gen4"]
         }
     },
@@ -3883,10 +3883,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Purple Kiss Ireh",
+        name: "PURPLE KISS Ireh",
         img: "3ExzZdZ.jpeg",
         opts: {
-            group: ["Purple Kiss"],
+            group: ["PURPLE KISS"],
             gen: ["gen4"]
         }
     },
@@ -3907,10 +3907,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ICHILLIN Jackie",
+        name: "ICHILLIN' Jackie",
         img: "K8GiCvn.jpeg",
         opts: {
-            group: ["ICHILLIN"],
+            group: ["ICHILLIN'"],
             gen: ["gen4"]
         }
     },
@@ -3923,10 +3923,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "(G)I-dle Jeon Soyeon",
+        name: "i-dle Jeon Soyeon",
         img: "ADPeYc8.jpeg",
         opts: {
-            group: ["(G)I-dle"], Clash: ["Idol Clash S2"],
+            group: ["i-dle"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -3947,10 +3947,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Purple Kiss Jieun",
+        name: "PURPLE KISS Jieun",
         img: "Ns3zyui.jpeg",
         opts: {
-            group: ["Purple Kiss"],
+            group: ["PURPLE KISS"],
             gen: ["gen4"]
         }
     },
@@ -3963,10 +3963,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Fromis 9 Jiheon",
+        name: "fromis_9 Jiheon",
         img: "WbbfOvA.jpeg",
         opts: {
-            group: ["Fromis 9"], Clash: ["Idol Clash S3"],
+            group: ["fromis_9"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -3995,10 +3995,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Secret Number Jinny",
+        name: "SECRET NUMBER Jinny",
         img: "wl3BDmb.png",
         opts: {
-            group: ["Secret Number"],
+            group: ["SECRET NUMBER"],
             gen: ["gen4"]
         }
     },
@@ -4027,10 +4027,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Fromis 9 Jisun",
+        name: "fromis_9 Jisun",
         img: "QsEPscQ.jpeg",
         opts: {
-            group: ["Fromis 9"], Clash: ["Idol Clash S3"],
+            group: ["fromis_9"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -4043,18 +4043,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Fromis 9 Jiwon",
+        name: "fromis_9 Jiwon",
         img: "dFyYgem.jpeg",
         opts: {
-            group: ["Fromis 9"], Clash: ["Idol Clash S3"],
+            group: ["fromis_9"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Nmixx Jiwoo",
+        name: "NMIXX Jiwoo",
         img: "me7ymUA.jpeg",
         opts: {
-            group: ["Nmixx"], Clash: ["Idol Clash S2"],
+            group: ["NMIXX"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -4075,10 +4075,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ICHILLIN Jiyoon",
+        name: "ICHILLIN' Jiyoon",
         img: "PqUOILT.jpeg",
         opts: {
-            group: ["ICHILLIN"],
+            group: ["ICHILLIN'"],
             gen: ["gen4"]
         }
     },
@@ -4099,18 +4099,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ICHILLIN Joonie",
+        name: "ICHILLIN' Joonie",
         img: "QggztWK.jpeg",
         opts: {
-            group: ["ICHILLIN"],
+            group: ["ICHILLIN'"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Lightsum Juhyeon",
+        name: "LIGHTSUM Juhyeon",
         img: "mSSJVin.jpeg",
         opts: {
-            group: ["Lightsum"], Clash: ["Idol Clash S3"],
+            group: ["LIGHTSUM"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -4123,10 +4123,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Bvndit Jungwoo",
+        name: "BVNDIT Jungwoo",
         img: "v4d2nv4.jpeg",
         opts: {
-            group: ["Bvndit"],
+            group: ["BVNDIT"],
             gen: ["gen4"]
         }
     },
@@ -4147,18 +4147,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Craxy Karin",
+        name: "CRAXY Karin",
         img: "mde1uJx.jpeg",
         opts: {
-            group: ["Craxy"],
+            group: ["CRAXY"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Aespa Karina",
+        name: "aespa Karina",
         img: "TytbwAL.jpeg",
         opts: {
-            group: ["Aespa"], Clash: ["Idol Clash S2"],
+            group: ["aespa"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -4259,10 +4259,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nmixx Kyujin",
+        name: "NMIXX Kyujin",
         img: "21GD0tm.jpeg",
         opts: {
-            group: ["Nmixx"], Clash: ["Idol Clash S2"], Clash: ["Idol Clash Cat Edition"],
+            group: ["NMIXX"], Clash: ["Idol Clash S2"], Clash: ["Idol Clash Cat Edition"],
             gen: ["gen4"]
         }
     },
@@ -4323,10 +4323,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nmixx Lily",
+        name: "NMIXX Lily",
         img: "pngwuqs.jpeg",
         opts: {
-            group: ["Nmixx"], Clash: ["Idol Clash S2"],
+            group: ["NMIXX"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -4347,18 +4347,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nature Loha",
+        name: "NATURE Loha",
         img: "0bysoNG.png",
         opts: {
-            group: ["Nature"],
+            group: ["NATURE"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Pixy Lola",
+        name: "PIXY Lola",
         img: "Xr06FZF.png",
         opts: {
-            group: ["Pixy"],
+            group: ["PIXY"],
             gen: ["gen4"]
         }
     },
@@ -4371,10 +4371,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nature Lu",
+        name: "NATURE Lu",
         img: "oRUu9Sd.jpeg",
         opts: {
-            group: ["Nature"],
+            group: ["NATURE"],
             gen: ["gen4"]
         }
     },
@@ -4387,10 +4387,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Secret Number L\u00e9a",
+        name: "SECRET NUMBER L\u00e9a",
         img: "Rn9L1Ds.png",
         opts: {
-            group: ["Secret Number"],
+            group: ["SECRET NUMBER"],
             gen: ["gen4"]
         }
     },
@@ -4427,10 +4427,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Everglow Mia",
+        name: "EVERGLOW Mia",
         img: "6ZpivSQ.jpeg",
         opts: {
-            group: ["Everglow"],
+            group: ["EVERGLOW"],
             gen: ["gen4"]
         }
     },
@@ -4451,10 +4451,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Secret Number Minji",
+        name: "SECRET NUMBER Minji",
         img: "xLx3UZd.png",
         opts: {
-            group: ["Secret Number"],
+            group: ["SECRET NUMBER"],
             gen: ["gen4"]
         }
     },
@@ -4475,10 +4475,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "(G)I-dle Minnie",
+        name: "i-dle Minnie",
         img: "37DtQnD.jpeg",
         opts: {
-            group: ["(G)I-dle"], Clash: ["Idol Clash S2"],
+            group: ["i-dle"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -4515,10 +4515,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "(G)I-dle Miyeon",
+        name: "i-dle Miyeon",
         img: "zifaWE7.jpeg",
         opts: {
-            group: ["(G)I-dle"], Clash: ["Idol Clash S2"],
+            group: ["i-dle"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -4539,10 +4539,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Fromis 9 Nagyung",
+        name: "fromis_9 Nagyung",
         img: "mVrbrQ2.jpeg",
         opts: {
-            group: ["Fromis 9"], Clash: ["Idol Clash S3"],
+            group: ["fromis_9"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -4587,10 +4587,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Lightsum Nayoung",
+        name: "LIGHTSUM Nayoung",
         img: "4HbG6fR.jpeg",
         opts: {
-            group: ["Lightsum"], Clash: ["Idol Clash S3"],
+            group: ["LIGHTSUM"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -4619,10 +4619,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Aespa Ningning",
+        name: "aespa Ningning",
         img: "A7vwsBN.jpeg",
         opts: {
-            group: ["Aespa"], Clash: ["Idol Clash S2"],
+            group: ["aespa"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -4643,10 +4643,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Everglow Onda",
+        name: "EVERGLOW Onda",
         img: "uJROSr1.jpeg",
         opts: {
-            group: ["Everglow"],
+            group: ["EVERGLOW"],
             gen: ["gen4"]
         }
     },
@@ -4683,10 +4683,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Pixy Rinji",
+        name: "PIXY Rinji",
         img: "2brj2Lf.png",
         opts: {
-            group: ["Pixy"],
+            group: ["PIXY"],
             gen: ["gen4"]
         }
     },
@@ -4731,18 +4731,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nature Saebom",
+        name: "NATURE Saebom",
         img: "Q2vhdMI.png",
         opts: {
-            group: ["Nature"],
+            group: ["NATURE"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Fromis 9 Saerom",
+        name: "fromis_9 Saerom",
         img: "Nk5WmGx.jpeg",
         opts: {
-            group: ["Fromis 9"], Clash: ["Idol Clash S3"],
+            group: ["fromis_9"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -4755,18 +4755,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Lightsum Sangah",
+        name: "LIGHTSUM Sangah",
         img: "bJtzJjB.jpeg",
         opts: {
-            group: ["Lightsum"], Clash: ["Idol Clash S3"],
+            group: ["LIGHTSUM"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Pixy Satbyeol",
+        name: "PIXY Satbyeol",
         img: "DzQjsaD.jpeg",
         opts: {
-            group: ["Pixy"],
+            group: ["PIXY"],
             gen: ["gen4"]
         }
     },
@@ -4795,10 +4795,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Cignature Seline",
+        name: "cignature Seline",
         img: "4sVbU3e.jpeg",
         opts: {
-            group: ["Cignature"],
+            group: ["cignature"],
             gen: ["gen4"]
         }
     },
@@ -4907,10 +4907,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Bvndit Seungeun",
+        name: "BVNDIT Seungeun",
         img: "YoS8UFu.jpeg",
         opts: {
-            group: ["Bvndit"],
+            group: ["BVNDIT"],
             gen: ["gen4"]
         }
     },
@@ -4955,10 +4955,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "(G)I-dle Shuhua",
+        name: "i-dle Shuhua",
         img: "3EBWp4y.jpeg",
         opts: {
-            group: ["(G)I-dle"], Clash: ["Idol Clash S2"],
+            group: ["i-dle"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -4979,26 +4979,26 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Everglow Sihyeon",
+        name: "EVERGLOW Sihyeon",
         img: "8PkOMei.jpeg",
         opts: {
-            group: ["Everglow"],
+            group: ["EVERGLOW"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Bvndit Simyeong",
+        name: "BVNDIT Simyeong",
         img: "fooUi3Q.jpeg",
         opts: {
-            group: ["Bvndit"],
+            group: ["BVNDIT"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Viviz SinB",
+        name: "VIVIZ SinB",
         img: "SpIN7l7.jpeg",
         opts: {
-            group: ["Viviz"], Clash: ["Idol Clash S3"],
+            group: ["VIVIZ"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -5035,10 +5035,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nature Sohee",
+        name: "NATURE Sohee",
         img: "S8kogXh.jpeg",
         opts: {
-            group: ["Nature"],
+            group: ["NATURE"],
             gen: ["gen4"]
         }
     },
@@ -5067,10 +5067,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },  
     {
-        name: "Bvndit Songhee",
+        name: "BVNDIT Songhee",
         img: "cPUlpTi.png",
         opts: {
-            group: ["Bvndit"],
+            group: ["BVNDIT"],
             gen: ["gen4"]
         }
     },
@@ -5091,10 +5091,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Secret Number Soodam",
+        name: "SECRET NUMBER Soodam",
         img: "R9IEFX8.png",
         opts: {
-            group: ["Secret Number"],
+            group: ["SECRET NUMBER"],
             gen: ["gen4"]
         }
     },
@@ -5131,10 +5131,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Pixy Sua",
+        name: "PIXY Sua",
         img: "aQeV1O0.png",
         opts: {
-            group: ["Pixy"],
+            group: ["PIXY"],
             gen: ["gen4"]
         }
     },
@@ -5155,10 +5155,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nmixx Sullyoon",
+        name: "NMIXX Sullyoon",
         img: "Hgu811m.jpeg",
         opts: {
-            group: ["Nmixx"], Clash: ["Idol Clash S2"],
+            group: ["NMIXX"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -5179,10 +5179,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nature Sunshine",
+        name: "NATURE Sunshine",
         img: "AVR69wD.jpeg",
         opts: {
-            group: ["Nature"],
+            group: ["NATURE"],
             gen: ["gen4"]
         }
     },
@@ -5203,18 +5203,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Craxy Swan",
+        name: "CRAXY Swan",
         img: "GFOiNN4.jpeg",
         opts: {
-            group: ["Craxy"],
+            group: ["CRAXY"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Purple Kiss Swan",
+        name: "PURPLE KISS Swan",
         img: "iDxcI4F.jpeg",
         opts: {
-            group: ["Purple Kiss"],
+            group: ["PURPLE KISS"],
             gen: ["gen4"]
         }
     },
@@ -5243,18 +5243,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nature Uchae",
+        name: "NATURE Uchae",
         img: "uZywcNI.jpeg",
         opts: {
-            group: ["Nature"],
+            group: ["NATURE"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Viviz Umji",
+        name: "VIVIZ Umji",
         img: "NCdDoM7.jpeg",
         opts: {
-            group: ["Viviz"], Clash: ["Idol Clash S3"],
+            group: ["VIVIZ"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -5275,18 +5275,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Loossemble Vivi",
+        name: "LOOSSEMBLE Vivi",
         img: "JRJ1z7J.jpeg",
         opts: {
-            group: ["Loossemble"],
+            group: ["LOOSSEMBLE"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Aespa Winter",
+        name: "aespa Winter",
         img: "JcaCfCa.jpeg",
         opts: {
-            group: ["Aespa"], Clash: ["Idol Clash S2"],
+            group: ["aespa"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -5300,7 +5300,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "IVE Wonyoung",
-        img: "9ohAAA7.jpeg",
+        img: "https://m.media-amazon.com/images/M/MV5BOTRhODI1N2EtY2UzOS00ZWFiLWE2NjEtZGQ2M2MzOWVlY2E2XkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg",
         opts: {
             group: ["IVE"],
             gen: ["gen4"]
@@ -5315,10 +5315,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Kep1er Xiaoting",
+        name: "KEP1ER Xiaoting",
         img: "BkgCbxm.jpeg",
         opts: {
-            group: ["Kep1er"], Clash: ["Idol Clash S3"],
+            group: ["KEP1ER"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -5355,10 +5355,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ICHILLIN Yeju",
+        name: "ICHILLIN' Yeju",
         img: "A67a31Q.jpeg",
         opts: {
-            group: ["ICHILLIN"],
+            group: ["ICHILLIN'"],
             gen: ["gen4"]
         }
     },
@@ -5371,10 +5371,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Loossemble Yeojin",
+        name: "LOOSSEMBLE Yeojin",
         img: "PxM3e82.jpeg",
         opts: {
-            group: ["Loossemble"],
+            group: ["LOOSSEMBLE"],
             gen: ["gen4"]
         }
     },
@@ -5411,18 +5411,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Everglow Yiren",
+        name: "EVERGLOW Yiren",
         img: "hmf2r7H.jpeg",
         opts: {
-            group: ["Everglow"], Clash: ["Idol Clash S2"],
+            group: ["EVERGLOW"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
     {
-        name: "Bvndit Yiyeon",
+        name: "BVNDIT Yiyeon",
         img: "4v21DBx.jpeg",
         opts: {
-            group: ["Bvndit"],
+            group: ["BVNDIT"],
             gen: ["gen4"]
         }
     },
@@ -5475,10 +5475,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Kep1er Youngeun",
+        name: "KEP1ER Youngeun",
         img: "mx7R8PN.jpeg",
         opts: {
-            group: ["Kep1er"], Clash: ["Idol Clash S3"],
+            group: ["KEP1ER"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -5499,10 +5499,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Lightsum Yujeong",
+        name: "LIGHTSUM Yujeong",
         img: "37jZ7V4.jpeg",
         opts: {
-            group: ["Lightsum"], Clash: ["Idol Clash S3"],
+            group: ["LIGHTSUM"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -5515,10 +5515,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Kep1er Yujin",
+        name: "KEP1ER Yujin",
         img: "f308QnT.jpeg",
         opts: {
-            group: ["Kep1er"], Clash: ["Idol Clash S3"],
+            group: ["KEP1ER"], Clash: ["Idol Clash S3"],
             gen: ["gen4"]
         }
     },
@@ -5531,10 +5531,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Purple Kiss Yuki",
+        name: "PURPLE KISS Yuki",
         img: "r1luzwN.jpeg",
         opts: {
-            group: ["Purple Kiss"],
+            group: ["PURPLE KISS"],
             gen: ["gen4"]
         }
     },
@@ -5579,10 +5579,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "(G)I-dle Yuqi",
+        name: "i-dle Yuqi",
         img: "T7HDDbm.jpeg",
         opts: {
-            group: ["(G)I-dle"], Clash: ["Idol Clash S2"],
+            group: ["i-dle"], Clash: ["Idol Clash S2"],
             gen: ["gen4"]
         }
     },
@@ -5611,10 +5611,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Secret Number Zuu",
+        name: "SECRET NUMBER Zuu",
         img: "9a0eCn2.png",
         opts: {
-            group: ["Secret Number"],
+            group: ["SECRET NUMBER"],
             gen: ["gen4"]
         }
     },
@@ -5627,10 +5627,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "BabyMonster Ahyeon",
+        name: "BABYMONSTER Ahyeon",
         img: "Icl8Yeb.jpeg",
         opts: {
-            group: ["BabyMonster"], Clash: ["Idol Clash S2"],
+            group: ["BABYMONSTER"], Clash: ["Idol Clash S2"],
             gen: ["gen5"]
         }
     },
@@ -5659,10 +5659,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Meovv Anna",
+        name: "MEOVV Anna",
         img: "2b6nmNr.jpeg",
         opts: {
-            group: ["Meovv"], Clash: ["Idol Clash S3"],
+            group: ["MEOVV"], Clash: ["Idol Clash S3"],
             gen: ["gen5"]
         }
     },
@@ -5683,10 +5683,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "eite Ari",
+        name: "EITE Ari",
         img: "XKKwYkQ.jpeg",
         opts: {
-            group: ["eite"],
+            group: ["EITE"],
             gen: ["gen5"]
         }
     },
@@ -5699,10 +5699,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "BabyMonster Asa",
+        name: "BABYMONSTER Asa",
         img: "NjzOhK4.jpeg",
         opts: {
-            group: ["BabyMonster"], Clash: ["Idol Clash S2"],
+            group: ["BABYMONSTER"], Clash: ["Idol Clash S2"],
             gen: ["gen5"]
         }
     },
@@ -5835,10 +5835,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "BabyMonster Chiquita",
+        name: "BABYMONSTER Chiquita",
         img: "htYcIlB.jpeg",
         opts: {
-            group: ["BabyMonster"], Clash: ["Idol Clash S2"],
+            group: ["BABYMONSTER"], Clash: ["Idol Clash S2"],
             gen: ["gen5"]
         }
     },
@@ -5899,18 +5899,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Young Posse Doeun",
+        name: "YOUNG POSSE Doeun",
         img: "sjhtlW8.jpeg",
         opts: {
-            group: ["Young Posse"],
+            group: ["YOUNG POSSE"],
             gen: ["gen5"]
         }
     },
     {
-        name: "Say My Name Dohee",
+        name: "SAY MY NAME Dohee",
         img: "vw6SKlZ.jpeg",
         opts: {
-            group: ["Say My Name"],
+            group: ["SAY MY NAME"],
             gen: ["gen5"]
         }
     },
@@ -5939,10 +5939,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Meovv Ella",
+        name: "MEOVV Ella",
         img: "BUqVHyR.jpeg",
         opts: {
-            group: ["Meovv"], Clash: ["Idol Clash S3"],
+            group: ["MEOVV"], Clash: ["Idol Clash S3"],
             gen: ["gen5"]
         }
     },
@@ -5971,18 +5971,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Madein Gaeun",
+        name: "MADEIN Gaeun",
         img: "xBmyy63.jpeg",
         opts: {
-            group: ["Madein"],
+            group: ["MADEIN"],
             gen: ["gen5"]
         }
     },
     {
-        name: "Meovv Gawon",
+        name: "MEOVV Gawon",
         img: "gykwIDU.jpeg",
         opts: {
-            group: ["Meovv"], Clash: ["Idol Clash S3"],
+            group: ["MEOVV"], Clash: ["Idol Clash S3"],
             gen: ["gen5"]
         }
     },
@@ -6075,10 +6075,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Say My Name Hitomi",
+        name: "SAY MY NAME Hitomi",
         img: "bovzNn4.jpg",
         opts: {
-            group: ["Say My Name"],
+            group: ["SAY MY NAME"],
             gen: ["gen5"]
         }
     },
@@ -6187,18 +6187,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Young Posse Jiana",
+        name: "YOUNG POSSE Jiana",
         img: "vu2uwu2.jpeg",
         opts: {
-            group: ["Young Posse"],
+            group: ["YOUNG POSSE"],
             gen: ["gen5"]
         }
     },
     {
-        name: "Young Posse Jieun",
+        name: "YOUNG POSSE Jieun",
         img: "2vfF0uR.jpeg",
         opts: {
-            group: ["Young Posse"],
+            group: ["YOUNG POSSE"],
             gen: ["gen5"]
         }
     },
@@ -6251,10 +6251,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Say My Name Junhwi",
+        name: "SAY MY NAME Junhwi",
         img: "s9gAShn.jpeg",
         opts: {
-            group: ["Say My Name"],
+            group: ["SAY MY NAME"],
             gen: ["gen5"]
         }
     },
@@ -6283,10 +6283,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Say My Name Kanny",
+        name: "SAY MY NAME Kanny",
         img: "sL98Okc.jpeg",
         opts: {
-            group: ["Say My Name"],
+            group: ["SAY MY NAME"],
             gen: ["gen5"]
         }
     },
@@ -6435,10 +6435,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ReScene Liv",
+        name: "RESCENE Liv",
         img: "cQxebbz.jpeg",
         opts: {
-            group: ["ReScene"],
+            group: ["RESCENE"],
             gen: ["gen5"]
         }
     },
@@ -6507,18 +6507,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Madein Mashiro",
+        name: "MADEIN Mashiro",
         img: "o7wGdus.jpeg",
         opts: {
-            group: ["Madein"],
+            group: ["MADEIN"],
             gen: ["gen5"]
         }
     },
     {
-        name: "ReScene May",
+        name: "RESCENE May",
         img: "rG1dthC.jpeg",
         opts: {
-            group: ["ReScene"],
+            group: ["RESCENE"],
             gen: ["gen5"]
         }
     },
@@ -6531,10 +6531,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Say My Name Mei",
+        name: "SAY MY NAME Mei",
         img: "EFj7ifZ.jpeg",
         opts: {
-            group: ["Say My Name"],
+            group: ["SAY MY NAME"],
             gen: ["gen5"]
         }
     },
@@ -6579,10 +6579,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ReScene Minami",
+        name: "RESCENE Minami",
         img: "ic5xIF3.jpeg",
         opts: {
-            group: ["ReScene"],
+            group: ["RESCENE"],
             gen: ["gen5"]
         }
     },
@@ -6595,10 +6595,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Madein MiU",
+        name: "MADEIN MiU",
         img: "tfZlT0T.jpeg",
         opts: {
-            group: ["Madein"],
+            group: ["MADEIN"],
             gen: ["gen5"]
         }
     },
@@ -6651,18 +6651,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Madein Nagomi",
+        name: "MADEIN Nagomi",
         img: "fdYG3Nu.jpeg",
         opts: {
-            group: ["Madein"],
+            group: ["MADEIN"],
             gen: ["gen5"]
         }
     },
     {
-        name: "Meovv Narin",
+        name: "MEOVV Narin",
         img: "HtEA7P4.jpeg",
         opts: {
-            group: ["Meovv"], Clash: ["Idol Clash S3"],
+            group: ["MEOVV"], Clash: ["Idol Clash S3"],
             gen: ["gen5"]
         }
     },
@@ -6707,10 +6707,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "BabyMonster Pharita",
+        name: "BABYMONSTER Pharita",
         img: "EUbsFar.jpeg",
         opts: {
-            group: ["BabyMonster"], Clash: ["Idol Clash S2"],
+            group: ["BABYMONSTER"], Clash: ["Idol Clash S2"],
             gen: ["gen5"]
         }
     },
@@ -6723,10 +6723,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "BabyMonster Rami",
+        name: "BABYMONSTER Rami",
         img: "ooGNzdx.jpeg",
         opts: {
-            group: ["BabyMonster"], Clash: ["Idol Clash S2"],
+            group: ["BABYMONSTER"], Clash: ["Idol Clash S2"],
             gen: ["gen5"]
         }
     },
@@ -6739,18 +6739,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "eite Rena",
+        name: "EITE Rena",
         img: "yCsc5zh.jpeg",
         opts: {
-            group: ["eite"],
+            group: ["EITE"],
             gen: ["gen5"]
         }
     },
     {
-        name: "eite Reo",
+        name: "EITE Reo",
         img: "r0paLGN.jpeg",
         opts: {
-            group: ["eite"],
+            group: ["EITE"],
             gen: ["gen5"]
         }
     },
@@ -6803,18 +6803,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "BabyMonster Rora",
+        name: "BABYMONSTER Rora",
         img: "zzlraGp.jpeg",
         opts: {
-            group: ["BabyMonster"], Clash: ["Idol Clash S2"],
+            group: ["BABYMONSTER"], Clash: ["Idol Clash S2"],
             gen: ["gen5"]
         }
     },
     {
-        name: "BabyMonster Ruka",
+        name: "BABYMONSTER Ruka",
         img: "kDm6OFP.jpeg",
         opts: {
-            group: ["BabyMonster"], Clash: ["Idol Clash S2"],
+            group: ["BABYMONSTER"], Clash: ["Idol Clash S2"],
             gen: ["gen5"]
         }
     },
@@ -6907,18 +6907,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Madein Serina",
+        name: "MADEIN Serina",
         img: "b4N08bQ.jpeg",
         opts: {
-            group: ["Madein"],
+            group: ["MADEIN"],
             gen: ["gen5"]
         }
     },
     {
-        name: "Say My Name Seungjoo",
+        name: "SAY MY NAME Seungjoo",
         img: "xsUwYfr.jpeg",
         opts: {
-            group: ["Say My Name"],
+            group: ["SAY MY NAME"],
             gen: ["gen5"]
         }
     },
@@ -6939,18 +6939,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Say My Name Shuie",
+        name: "SAY MY NAME Shuie",
         img: "x30o891.jpeg",
         opts: {
-            group: ["Say My Name"],
+            group: ["SAY MY NAME"],
             gen: ["gen5"]
         }
     },
     {
-        name: "eite Sia",
+        name: "EITE Sia",
         img: "6e51JzM.jpeg",
         opts: {
-            group: ["eite"],
+            group: ["EITE"],
             gen: ["gen5"]
         }
     },
@@ -6995,10 +6995,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Say My Name Soha",
+        name: "SAY MY NAME Soha",
         img: "sPDwczG.jpeg",
         opts: {
-            group: ["Say My Name"],
+            group: ["SAY MY NAME"],
             gen: ["gen5"]
         }
     },
@@ -7019,10 +7019,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Meovv Sooin",
+        name: "MEOVV Sooin",
         img: "kXatYvb.jpeg",
         opts: {
-            group: ["Meovv"], Clash: ["Idol Clash S3"], Clash: ["Idol Clash Cat Edition"],
+            group: ["MEOVV"], Clash: ["Idol Clash S3"], Clash: ["Idol Clash Cat Edition"],
             gen: ["gen5"]
         }
     },
@@ -7051,10 +7051,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Madein Suhye",
+        name: "MADEIN Suhye",
         img: "dWG9fhr.jpeg",
         opts: {
-            group: ["Madein"],
+            group: ["MADEIN"],
             gen: ["gen5"]
         }
     },
@@ -7091,10 +7091,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Young Posse Sunhye",
+        name: "YOUNG POSSE Sunhye",
         img: "gH32ZaX.jpeg",
         opts: {
-            group: ["Young Posse"],
+            group: ["YOUNG POSSE"],
             gen: ["gen5"]
         }
     },
@@ -7163,18 +7163,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ReScene Woni",
+        name: "RESCENE Woni",
         img: "zPdndid.jpeg",
         opts: {
-            group: ["ReScene"],
+            group: ["RESCENE"],
             gen: ["gen5"]
         }
     },
     {
-        name: "Craxy Wooah",
+        name: "CRAXY Wooah",
         img: "RCo9ann.jpeg",
         opts: {
-            group: ["Craxy"],
+            group: ["CRAXY"],
             gen: ["gen4"]
         }
     },
@@ -7243,10 +7243,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Young Posse Yeonjung",
+        name: "YOUNG POSSE Yeonjung",
         img: "e5nSjoM.jpeg",
         opts: {
-            group: ["Young Posse"],
+            group: ["YOUNG POSSE"],
             gen: ["gen5"]
         }
     },
@@ -7267,10 +7267,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Madein Yeseo",
+        name: "MADEIN Yeseo",
         img: "LSvS2nN.jpeg",
         opts: {
-            group: ["Madein"],
+            group: ["MADEIN"],
             gen: ["gen5"]
         }
     },
@@ -7355,18 +7355,18 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "eite Yuisa",
+        name: "EITE Yuisa",
         img: "ylBRLfo.jpeg",
         opts: {
-            group: ["eite"],
+            group: ["EITE"],
             gen: ["gen5"]
         }
     },
     {
-        name: "eite Yujin",
+        name: "EITE Yujin",
         img: "pKZgsxB.jpeg",
         opts: {
-            group: ["eite"],
+            group: ["EITE"],
             gen: ["gen5"]
         }
     },
@@ -7443,10 +7443,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ReScene Zena",
+        name: "RESCENE Zena",
         img: "Aub4ROY.jpeg",
         opts: {
-            group: ["ReScene"],
+            group: ["RESCENE"],
             gen: ["gen5"]
         }
     },
@@ -7494,10 +7494,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Aespa",
-        img: "yhD4MLr.jpeg",
+        name: "aespa",
+        img: "https://www.billboard.com/wp-content/uploads/2025/03/feature-aespa-billboard-2025-bb5-abi-polinsky-6-1548.jpg",
         opts: {
-            group_label: ["Aespa"],
+            group_label: ["aespa"],
         }
     },
     {
@@ -7508,10 +7508,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Alice",
+        name: "ALICE",
         img: "BJbt4R9.jpeg",
         opts: {
-            group_label: ["Alice"],
+            group_label: ["ALICE"],
         }
     },
     {
@@ -7529,10 +7529,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "April",
+        name: "APRIL",
         img: "5vNiKQi.jpeg",
         opts: {
-            group_label: ["April"],
+            group_label: ["APRIL"],
         }
     },
     {
@@ -7558,10 +7558,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "BabyMonster",
+        name: "BABYMONSTER",
         img: "ecnyjaD.png",
         opts: {
-            group_label: ["BabyMonster"],
+            group_label: ["BABYMONSTER"],
         }
     },
     {
@@ -7586,17 +7586,17 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Blackpink",
+        name: "BLACKPINK",
         img: "https://kpop.fandom.com/wiki/File:BLACKPINK_Shut_Down_group_promotional_photo.png",
         opts: {
-            group_label: ["Blackpink"],
+            group_label: ["BLACKPINK"],
         }
     },
     {
-        name: "Brave Girls",
+        name: "BBGIRLS",
         img: "qTlGRsT.jpeg",
         opts: {
-            group_label: ["Brave Girls"],
+            group_label: ["BBGIRLS"],
         }
     },
     {
@@ -7621,10 +7621,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Bvndit",
+        name: "BVNDIT",
         img: "6jhAZ9v.jpeg",
         opts: {
-            group_label: ["Bvndit"],
+            group_label: ["BVNDIT"],
         }
     },
     {
@@ -7642,10 +7642,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Cignature",
+        name: "cignature",
         img: "LoJZoTL.jpeg",
         opts: {
-            group_label: ["Cignature"],
+            group_label: ["cignature"],
         }
     },
     {
@@ -7656,10 +7656,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Craxy",
+        name: "CRAXY",
         img: "pRmbaEZ.jpeg",
         opts: {
-            group_label: ["Craxy"],
+            group_label: ["CRAXY"],
         }
     },
     {
@@ -7698,10 +7698,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Dia",
+        name: "DIA",
         img: "PUl14Ml.jpeg",
         opts: {
-            group_label: ["Dia"],
+            group_label: ["DIA"],
         }
     },
     {
@@ -7712,10 +7712,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Dreamcatcher",
+        name: "DREAMCATCHER",
         img: "675MF1v.jpeg",
         opts: {
-            group_label: ["Dreamcatcher"],
+            group_label: ["DREAMCATCHER"],
         }
     },
     {
@@ -7733,10 +7733,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "eite",
+        name: "EITE",
         img: "GFklF6n.jpeg",
         opts: {
-            group_label: ["eite"],
+            group_label: ["EITE"],
         }
     },
     {
@@ -7747,10 +7747,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Everglow",
+        name: "EVERGLOW",
         img: "nOgOsg8.jpeg",
         opts: {
-            group_label: ["Everglow"],
+            group_label: ["EVERGLOW"],
         }
     },
     {
@@ -7768,10 +7768,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Fiestar",
+        name: "FIESTAR",
         img: "w41DIEV.jpeg",
         opts: {
-            group_label: ["Fiestar"],
+            group_label: ["FIESTAR"],
         }
     },
     {
@@ -7782,17 +7782,17 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Fromis 9",
+        name: "fromis_9",
         img: "SbyBCi9.jpeg",
         opts: {
-            group_label: ["Fromis 9"],
+            group_label: ["fromis_9"],
         }
     },
     {
-        name: "(G)I-dle",
+        name: "i-dle",
         img: "lqcw5qu.jpeg",
         opts: {
-            group_label: ["(G)I-dle"],
+            group_label: ["i-dle"],
         }
     },
     {
@@ -7810,10 +7810,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "GFriend",
+        name: "GFRIEND",
         img: "oMBievG.jpeg",
         opts: {
-            group_label: ["GFriend"],
+            group_label: ["GFRIEND"],
         }
     },
     {
@@ -7831,10 +7831,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Gugudan",
+        name: "gugudan",
         img: "DS8yctq.jpeg",
         opts: {
-            group_label: ["Gugudan"],
+            group_label: ["gugudan"],
         }
     },
     {
@@ -7873,10 +7873,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Hellovenus",
+        name: "Hello Venus",
         img: "4HkYkhA.jpeg",
         opts: {
-            group_label: ["Hellovenus"],
+            group_label: ["Hello Venus"],
         }
     },
     {
@@ -7901,10 +7901,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ICHILLIN",
+        name: "ICHILLIN'",
         img: "ExEjxox.jpeg",
         opts: {
-            group_label: ["ICHILLIN"],
+            group_label: ["ICHILLIN'"],
         }
     },
     {
@@ -7964,17 +7964,17 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Kara",
+        name: "KARA",
         img: "tPx2i0L.jpeg",
         opts: {
-            group_label: ["Kara"],
+            group_label: ["KARA"],
         }
     },
     {
-        name: "Kep1er",
+        name: "KEP1ER",
         img: "6nTje4D.jpeg",
         opts: {
-            group_label: ["Kep1er"],
+            group_label: ["KEP1ER"],
         }
     },
     {
@@ -8006,17 +8006,17 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Laboum",
+        name: "LABOUM",
         img: "EBD5Kfr.jpeg",
         opts: {
-            group_label: ["Laboum"],
+            group_label: ["LABOUM"],
         }
     },
     {
-        name: "Ladies' code",
+        name: "LADIES' CODE",
         img: "1dx7doB.jpeg",
         opts: {
-            group_label: ["Ladies' code"],
+            group_label: ["LADIES' CODE"],
         }
     },
     {
@@ -8048,24 +8048,24 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Lightsum",
+        name: "LIGHTSUM",
         img: "Aku7Nje.jpeg",
         opts: {
-            group_label: ["Lightsum"],
+            group_label: ["LIGHTSUM"],
         }
     },
     {
-        name: "Loossemble",
+        name: "LOOSSEMBLE",
         img: "gsJkUFc.jpeg",
         opts: {
-            group_label: ["Loossemble"],
+            group_label: ["LOOSSEMBLE"],
         }
     },
     {
-        name: "Lovelyz",
+        name: "LOVELYZ",
         img: "PKSzYOH.jpeg",
         opts: {
-            group_label: ["Lovelyz"],
+            group_label: ["LOVELYZ"],
         }
     },
     {
@@ -8076,10 +8076,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Madein",
+        name: "MADEIN",
         img: "DU92z7x.jpeg",
         opts: {
-            group_label: ["Madein"],
+            group_label: ["MADEIN"],
         }
     },
     {
@@ -8090,17 +8090,17 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Mamamoo",
+        name: "MAMAMOO",
         img: "QlW1V02.jpeg",
         opts: {
-            group_label: ["Mamamoo"],
+            group_label: ["MAMAMOO"],
         }
     },
     {
-        name: "Meovv",
+        name: "MEOVV",
         img: "FrYY2tG.jpeg",
         opts: {
-            group_label: ["Meovv"],
+            group_label: ["MEOVV"],
         }
      },
      {
@@ -8111,24 +8111,24 @@ dataSet[dataSetVersion].characterData = [
         }
      },
      {
-        name: "Miss A",
+        name: "miss A",
         img: "p3sOyMg.jpeg",
         opts: {
-            group_label: ["Miss A"],
+            group_label: ["miss A"],
         }
      },
      {
-        name: "Momoland",
+        name: "MOMOLAND",
         img: "lLtjVi2.jpeg",
         opts: {
-            group_label: ["Momoland"],
+            group_label: ["MOMOLAND"],
         }
     },
     {
-        name: "Nature",
+        name: "NATURE",
         img: "BHdZDS9.jpeg",
         opts: {
-            group_label: ["Nature"]
+            group_label: ["NATURE"]
         }
     },
     {
@@ -8153,17 +8153,17 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Nmixx",
+        name: "NMIXX",
         img: "nMiYuoS.jpeg",
         opts: {
-            group_label: ["Nmixx"]
+            group_label: ["NMIXX"]
         }
     },
     {
-        name: "Oh My Girl",
+        name: "OH MY GIRL",
         img: "N87dphY.jpeg",
         opts: {
-            group_label: ["Oh My Girl"],
+            group_label: ["OH MY GIRL"],
         }
     },
     {
@@ -8174,10 +8174,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Pixy",
+        name: "PIXY",
         img: "qrbIEYv.jpeg",
         opts: {
-            group_label: ["Pixy"],
+            group_label: ["PIXY"],
         }
     },
     {
@@ -8188,17 +8188,17 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Pristin",
+        name: "PRISTIN",
         img: "f1UlAEZ.jpeg",
         opts: {
-            group_label: ["Pristin"],
+            group_label: ["PRISTIN"],
         }
     },
     {
-        name: "Purple Kiss",
+        name: "PURPLE KISS",
         img: "1eNnyDK.jpeg",
         opts: {
-            group_label: ["Purple Kiss"],
+            group_label: ["PURPLE KISS"],
         }
     },
     {
@@ -8230,10 +8230,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "ReScene",
+        name: "RESCENE",
         img: "zwkfLlN.jpeg",
         opts: {
-            group_label: ["ReScene"],
+            group_label: ["RESCENE"],
         }
     },
     {
@@ -8244,10 +8244,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Say My Name",
+        name: "SAY MY NAME",
         img: "by4VwF9.jpeg",
         opts: {
-            group_label: ["Say My Name"],
+            group_label: ["SAY MY NAME"],
         }
     },
     {
@@ -8258,24 +8258,24 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Secret Number",
+        name: "SECRET NUMBER",
         img: "hflOXh7.jpeg",
         opts: {
-            group_label: ["Secret Number"],
+            group_label: ["SECRET NUMBER"],
         }
     },
     {
-        name: "Sistar",
+        name: "SISTAR",
         img: "5UNoWmS.jpeg",
         opts: {
-            group_label: ["Sistar"],
+            group_label: ["SISTAR"],
         }
     },
     {
-        name: "Sonamoo",
+        name: "SONAMOO",
         img: "tp9ioyg.jpeg",
         opts: {
-            group_label: ["Sonamoo"],
+            group_label: ["SONAMOO"],
         }
     },
     {
@@ -8307,10 +8307,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "T-ara",
+        name: "T-ARA",
         img: "15mcLBA.jpeg",
         opts: {
-            group_label: ["T-ara"],
+            group_label: ["T-ARA"],
         }
     },
     {
@@ -8328,10 +8328,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Twice",
+        name: "TWICE",
         img: "zrF5oT1.jpeg",
         opts: {
-            group_label: ["Twice"],
+            group_label: ["TWICE"],
         }
     },
     {
@@ -8370,10 +8370,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Viviz",
+        name: "VIVIZ",
         img: "CAbbKya.jpeg",
         opts: {
-            group_label: ["Viviz"],
+            group_label: ["VIVIZ"],
         }
     },
     {
@@ -8440,10 +8440,10 @@ dataSet[dataSetVersion].characterData = [
         }
     },
     {
-        name: "Young Posse",
+        name: "YOUNG POSSE",
         img: "UlWnr34.jpeg",
         opts: {
-            group_label: ["Young Posse"],
+            group_label: ["YOUNG POSSE"],
         }
     },
 ];

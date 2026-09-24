@@ -22,8 +22,7 @@ This sorter is based on  [execfera/charasort](https://github.com/execfera/charas
 The default page is now a responsive pink sorter with searchable group cards,
 individual member selection, generation filters, group ranking mode, comparison
 estimates, device-local autosave, unlimited undo, ties, and result link/image/text
-exports. The original page and saved URL format remain available in `legacy.html`.
-All 1,027 existing catalog photos are cached under `src/assets/idols/` as
+exports. All catalog photos are cached under `src/assets/idols/` as
 optimized JPEGs and served from the same origin. `src/js/photo-cache.js` maps
 original image references to those assets; catalog identities and saved links
 are unchanged. Missing future images fall back to their original URL and then

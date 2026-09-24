@@ -9,6 +9,12 @@ class Element {
     this.value = "";
     this.hidden = false;
     this.handlers = {};
+    this.classList = {
+      toggle() {},
+      add() {},
+      remove() {},
+      contains: () => false,
+    };
   }
   addEventListener(type, fn) {
     this.handlers[type] = fn;
@@ -137,6 +143,10 @@ assert.equal(elements.get("start").disabled, true);
 elements.get("search").value = "";
 elements.get("select-visible").click();
 assert.ok(Number(elements.get("selection-count").textContent) > 100);
+elements.get("start").click();
+assert.match(elements.get("pick-left").innerHTML, /card-backdrop/);
+assert.match(elements.get("pick-right").innerHTML, /card-backdrop/);
+elements.get("pause").click();
 elements.get("clear").click();
 assert.equal(Number(elements.get("selection-count").textContent), 0);
 console.log(

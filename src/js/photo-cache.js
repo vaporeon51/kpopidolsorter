@@ -1031,5 +1031,7 @@ const photoCache = {
   "https://upload.wikimedia.org/wikipedia/commons/a/a5/Le_Sserafim_at_2026_Golden_Disc_awards.png": "src/assets/idols/a76e0b5e09b6b33e.jpg",
   "https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/canvas/2024/07/23/b68ac245-11fa-4cb9-8e62-8b89c285bbc1_6bb9524f.jpg": "src/assets/idols/6d72ef3811bf6d6b.jpg",
   "https://www.billboard.com/wp-content/uploads/2024/06/01-ILLIT-Rookie-Spotlight-group-billboard-1548.jpg": "src/assets/idols/e7b66317cff928ca.jpg",
-  "https://www.billboard.com/wp-content/uploads/2026/08/Red-Velvet-sm-entertainment-billboard-1800.jpg": "src/assets/idols/4ac9f6e6723a6ddd.jpg"
+  "https://www.billboard.com/wp-content/uploads/2026/08/Red-Velvet-sm-entertainment-billboard-1800.jpg": "src/assets/idols/4ac9f6e6723a6ddd.jpg",
+  "https://www.billboard.com/wp-content/uploads/2025/03/feature-aespa-billboard-2025-bb5-abi-polinsky-6-1548.jpg": "src/assets/idols/0aa5560b78cc12cc.jpg",
+  "https://m.media-amazon.com/images/M/MV5BOTRhODI1N2EtY2UzOS00ZWFiLWE2NjEtZGQ2M2MzOWVlY2E2XkEyXkFqcGc@._V1_FMjpg_UX1080_.jpg": "src/assets/idols/f38116f5cddec608.jpg"
 };

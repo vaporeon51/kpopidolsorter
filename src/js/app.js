@@ -12,11 +12,11 @@
   })).filter((g) => g.members.length);
   const favoriteOrder = [
     "NewJeans",
-    "Aespa",
+    "aespa",
     "IVE",
-    "Le Sserafim",
-    "Twice",
-    "Blackpink",
+    "LE SSERAFIM",
+    "TWICE",
+    "BLACKPINK",
     "Red Velvet",
     "ITZY",
     "NMIXX",
@@ -516,10 +516,21 @@
     const pair = sorter.pair();
     ["left", "right"].forEach((side, index) => {
       const item = catalog[pair[index]];
-      $("pick-" + side).innerHTML = `${photo(item)}<strong>${
-        escape(shortName(item))
-      }</strong><small>${escape(groupName(item))}</small>`;
-      $("pick-" + side).setAttribute("aria-label", `Choose ${item.name}`);
+      const button = $("pick-" + side);
+      // Group photos are wide; show the whole photo over a blurred fill
+      // instead of center-cropping members away.
+      const duel = session.mode === "groups";
+      button.classList.toggle("group-duel", duel);
+      button.innerHTML = `${
+        duel
+          ? `<span class="card-backdrop" aria-hidden="true" style="background-image:url(&quot;${
+            escape(imageURL(item))
+          }&quot;)"></span>`
+          : ""
+      }${photo(item)}<strong>${escape(shortName(item))}</strong><small>${
+        escape(groupName(item))
+      }</small>`;
+      button.setAttribute("aria-label", `Choose ${item.name}`);
     });
     const bound = BiasSorter.bound(session.ids.length);
     $("battle-label").textContent = `MATCHUP ${
@@ -729,7 +740,5 @@
     } catch {
       toast("That result link could not be read. Your lineup is ready below.");
     }
-  } else if (location.search.length > 1) {
-    location.replace("legacy.html" + location.search);
   }
 })();
